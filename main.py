@@ -1,10 +1,9 @@
 import os
 import nacl
-# import ffm
 from subprocess import run
 from dotenv import load_dotenv
 import discord
-from discord import FFmpegPCMAudio
+from discord import FFmpegPCMAudio, PCMVolumeTransformer
 from discord.ext import commands
 from queue import Queue
 import yt_dlp
@@ -13,25 +12,31 @@ import yt_dlp
 load_dotenv()
 discord_token = os.getenv("discord_token")
 
-def search_song_yt(query):
+def search_song(query):
     ydl_opts = {
-        'format': 'bestaudio/best',  
-        'noplaylist': True,
+        'format': 'bestaudio[abr>0]/bestaudio/best',   
+        'default_search': 'ytsearch',
+        'postprocessors': [{
+            'key': 'FFmpegExtractAudio',  
+            'preferredcodec': 'mp3', 
+            'preferredquality': '320', 
+        }],
+        'quiet': True,
     }
     
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-        info = ydl.extract_info(f"ytsearch:{query}", download=False)
+        info = ydl.extract_info(f"{query} song", download=False)
         if 'entries' in info:
             video = info['entries'][0]
-            return video['url']
-    return None
+            return {'title': video['title'], 'url': video['url']}
+    return {'title': None, 'url': None}
 
 class Spoty_bot(commands.Bot):
     def __init__(self):
         super().__init__(command_prefix='!', intents=discord.Intents.all())
 
     async def on_ready(self):
-        print("This Bot is ready to serve you.")
+        print("Bot is online and ready to serve.")
         print("-" * 100)
         
     async def setup_hook(self):
@@ -41,100 +46,176 @@ class Spoty_bot(commands.Bot):
 class Player(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-    
-    # Keeps a track who started the bot For some commands
-    BotMainUser=False
-    
-    # queue for upcomming songs
-    queue= Queue()
-    
-    # @commands.command(help="Says Hello!") 
-    # async def hello(self, ctx):
-    #     await ctx.send("Hello!")
-
-    async def isInVoice(self, ctx) -> bool:
-        if ctx.voice_client:
-            return True
+        # admin of the bot
+        self.admin= 'light_yagami555'
+        # Track the context for the bot
+        self.current_ctx = None
+        # Queue for upcoming songs
+        self.queue = Queue()
         
-        return False
+        #volume of the bot from 0.0 to 2.0
+        self.current_volume= 1.8
     
-    # Connect the bot to the user's voice channel
-    async def connectToVoice(self, ctx) -> bool:
+    async def is_bot_connected_to_voice(self, ctx) -> bool:
+        """Check if the bot is connected to a voice channel."""
+        return ctx.voice_client is not None
+    
+    async def join(self, ctx) -> bool:
+        """Connect the bot to the user's voice channel."""
         try:
             if ctx.author.voice:
-                channel= ctx.author.voice.channel
+                channel = ctx.author.voice.channel
                 await channel.connect(self_deaf=True)
-                self.BotMainUser= ctx.author
-                await ctx.send("Bot connected to voice channel.")
+                self.current_ctx = ctx
+                self.current_volume= 1.8
+                await ctx.send(f"Connected to voice channel: **{channel.name}**.")
+                print(f"Joined voice channel: {channel.name}.")
                 return True
             else:
                 await ctx.send("You need to be in a voice channel to play music.")
                 return False
         except Exception as e:
             await ctx.send(f"Failed to connect to the voice channel: {str(e)}")
+            print(f"Error connecting to voice channel: {e}")
             return False
     
-    # User Can control or not 
-    async def checkUserCanControl(self, ctx) -> bool:
-        # logic: check if the user is in the same voice channel as the bot
+    async def is_user_authorized_to_control(self, ctx) -> bool:
+        """Check if the user can control the bot."""
         if ctx.voice_client and ctx.author.voice and ctx.voice_client.channel == ctx.author.voice.channel:
             return True
         else:
-            await ctx.send("You need to be in the same voice channel as the bot to control it.")
+            await ctx.send("You must be in the same voice channel as the bot to control it.")
             return False
     
+    async def play_next_song(self, ctx):
+        """Play the next song in the queue."""
+        if not ctx.voice_client.is_playing() and not self.queue.empty():
+            ffmpeg_options = {
+                'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5',
+                'options': '-vn',
+            }
+            next_song = self.queue.get()
+            source = FFmpegPCMAudio(next_song['url'], **ffmpeg_options)
+            source = PCMVolumeTransformer(source, self.current_volume) 
+            ctx.voice_client.play(source, after=lambda e: self.play_next_song(ctx))
+            
+            await ctx.send(f"Now playing: **{next_song['title']}**")
+            print(f"Started playing: {next_song['title']}")
+        else:
+            await ctx.send("The queue is empty. The bot will now disconnect.")
+            print("Queue is empty. Disconnecting the bot.")
+            await self.disconnect(ctx)
+    
     @commands.command(help="Search & Play any songs")
-    async def play(self,ctx, * ,query: str = ""):
+    async def play(self, ctx, *, query: str = ""):
+        """Search for a song and add it to the queue or play it immediately."""
         try:
-            # Get the player
+            if not query:
+                raise Exception("Please Provide a query with `!play` ")
+            
+            await ctx.send("Processing your request...")
             player = ctx.author
 
-            if not await self.isInVoice(ctx):
-                res= await self.connectToVoice(ctx)
+            if not await self.is_bot_connected_to_voice(ctx):
+                res = await self.join(ctx)
                 if not res:
                     return
             else:
-                res= await self.checkUserCanControl(ctx)
+                res = await self.is_user_authorized_to_control(ctx)
                 if not res:
                     return
-            
-            await ctx.send(f"Finding song for **@{player}** , `query: {query}`")
-            youtube_url= search_song_yt(query)
-            
-            if not youtube_url: 
-                raise Exception("Song not found!")
-            
-            await ctx.send(f"**@{player}** is playing song `query: {query}`")
             
             if ctx.voice_client is not None:
-                source = FFmpegPCMAudio(youtube_url)
-                ctx.voice_client.play(source)
-                await ctx.send(f"Now playing: {query}")
+                await ctx.send(f"Searching for song: **{query}** requested by {player.mention}.")
+                search_response = search_song(query)
+                
+                if not search_response['url']:
+                    raise Exception("Song not found!")
+                
+                self.queue.put(search_response)
+                
+                if ctx.voice_client.is_playing():
+                    await ctx.send(f"**{search_response['title']}** has been added to the queue by {player.mention}.")
+                    print(f"Added song to queue: {search_response['title']}")
+                else:
+                    await self.play_next_song(ctx)
             else:
-                await ctx.send("Bot failed to connect to a voice channel.")           
-            await ctx.send("Processing your request...")
-            
+                await ctx.send("Failed to connect to a voice channel.")
+                print("Failed to connect to a voice channel.")
+        
         except Exception as e:
             await ctx.send(f"Error: {str(e)}")
-        
-    @commands.command(help="Disconnect the bot from the voice channel (mute it).")
-    async def disconnect(self, ctx):
-        if ctx.voice_client is not None:
-            if ctx.author == self.BotMainUser: 
-                await ctx.voice_client.disconnect() 
-                await ctx.send("Bot has been disconnected from the voice channel.")
-            else:
-                await ctx.send(f"Only **@{self.BotMainUser}** has permission to disconnect ***Spoty*** for this session.")
-        else:
-            await ctx.send("Bot is not in a voice channel.")
+            print(f"Error during play command: {e}")
     
-# def refresh_spotify_token():
-#     generate_spotify_token()
+    @commands.command(help="Disconnect the bot from the voice channel.")
+    async def disconnect(self, ctx):
+        """Disconnect the bot from the voice channel."""
+        if ctx.voice_client is not None:
+            if ctx.author == self.current_ctx.author or ctx.author == self.bot.user or ctx.author == self.admin:
+                await ctx.voice_client.disconnect()
+                await ctx.send("Bot has been disconnected from the voice channel.")
+                print("Bot disconnected from voice channel.")
+            else:
+                await ctx.send(f"Only **{self.current_ctx.author.mention}** has permission to disconnect the bot for this session.")
+                print(f"Unauthorized disconnect attempt by: {ctx.author}")
+        else:
+            await ctx.send("The bot is not in a voice channel.")
+            print("Attempted to disconnect, but the bot is not in a voice channel.")
+            
+    @commands.command(help="Stops the current song and clears the queue.")
+    async def stop(self, ctx):
+        if ctx.voice_client is not None:
+            if ctx.voice_client.is_playing():
+                # Stop the current playback
+                ctx.voice_client.stop()
+            
+                # Clear the queue of upcoming songs
+                self.queue.queue.clear()
+                await ctx.send("Playback has been stopped, and the queue has been cleared.")
+            else:
+                await ctx.send("No song is currently playing.")
+        else:
+            await ctx.send("The bot is not connected to a voice channel.")
+    
+    @commands.command(help="Plays the next song from the queue.")
+    async def next(self, ctx):
+        if ctx.voice_client is not None:
+            if ctx.voice_client.is_playing():
+                # Stop the currently playing song
+                ctx.voice_client.stop()
+            
+            # Play the next song in the queue
+            await ctx.send("Playing the next song...")
+            await self.play_next_song(ctx)
+        else:
+            await ctx.send("The bot is not connected to a voice channel.")
+        
+    @commands.command(help="Set the volume of the currently playing song (0 to 100).")
+    async def volume(self, ctx, volume: int):
+        if not (0 <= volume <= 100):
+            await ctx.send("Volume must be between 0 and 100.")
+            return
+
+        if ctx.voice_client is None:
+            await ctx.send("Bot is not connected to a voice channel.")
+            return
+
+        # Normalize volume to the range 0.0 to 2.0
+        self.current_volume = volume / 50.0
+
+        await ctx.send(f"Volume set to {volume}%. Changes will apply on next song.")
+            
+    @commands.Cog.listener()
+    async def on_voice_state_update(self, member, before, after):
+        """Handle voice state updates."""
+        if self.current_ctx and before.channel and not after.channel and member == self.current_ctx.author:
+            await self.current_ctx.send(f"{member.mention} has left the voice channel. The bot will now disconnect.")
+            print(f"{member} has left the voice channel. Disconnecting the bot.")
+            await self.current_ctx.voice_client.disconnect()
 
 def main():
-    # refresh_spotify_token()
     bot = Spoty_bot()
     bot.run(discord_token)
-    
+
 if __name__ == '__main__':
     main()
