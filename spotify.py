@@ -35,16 +35,16 @@ def generate_spotify_token():
         print("Filed to fetch Spotify Access Token , Trying Again!")
         return ""
         
-# Searches Artists by Name
-def search_artists(*,artist_name:str):
-    print("Searching Artists by Name...")
+# Searches Track by Name
+def search_track(track:str):
+    print("Searching...")
     
     url= "https://api.spotify.com/v1/search"
     
     params= {
-        'q':artist_name,
-        'type':"artist",
-        'limit':5 #set the limit for artists
+        'q':track,
+        'type':"track",
+        'limit':1 #set's the limit for searched result
     }
     
     headers= {
@@ -54,7 +54,9 @@ def search_artists(*,artist_name:str):
     response= requests.get(url,headers=headers,params=params)
     
     if response.status_code == 200:
-        #update from here
-        print(response.json())
+        return response.json()
+    elif response.status_code == 401:
+        generate_spotify_token()
+        search_track(track=track)
     else:
-        print("Failed to fetch Data!!")
+        return "Failed to fetch Data!!"
