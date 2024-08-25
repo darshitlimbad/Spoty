@@ -71,6 +71,4 @@ IDK :)
 
 ## Contact
 
-For any issues or questions, feel free to reach out (please don't :) ):
-
-- **Discord:** [darshitlimbad](https://discord.com/darshitlimbad)
+For any issues or questions, feel free to reach out (please don't :) )
