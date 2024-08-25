@@ -1,5 +1,5 @@
 import os
-from dotenv import load_dotenv
+import json
 from subprocess import run
 import yt_dlp
 import logging
@@ -11,11 +11,21 @@ from discord.ext import commands
 
 from CustomQueue import Queue
 
-# Load environment variables from .env file
-load_dotenv()
-discord_token = os.getenv("discord_token")
-adminID = os.getenv("adminID")
+# Load the configuration file
+with open('config.json', 'r') as file:
+    config = json.load(file)
 
+discord_token = config.get("TOKEN",None)
+adminID = config.get("ADMINID",None)
+prefix= config.get("PREFIX",'!')
+
+if not discord_token:
+    print("\x1b[31m DISCORD TOKEN IS MISSING \x1b[0m")
+    exit()
+elif not adminID:
+    print("\x1b[31m Admin ID IS MISSING \x1b[0m")
+    exit()
+    
 # Set up logging with color formatting
 handler = colorlog.StreamHandler()
 handler.setFormatter(colorlog.ColoredFormatter(
@@ -119,7 +129,7 @@ class Spoty_bot(commands.Bot):
         Initialize the bot with a command prefix and all intents.
         Removes the default help command.
         """
-        super().__init__(command_prefix='!', intents=discord.Intents.all())
+        super().__init__(command_prefix=prefix, intents=discord.Intents.all())
         self.remove_command('help')
 
     async def on_ready(self):
@@ -176,11 +186,12 @@ class Player(commands.Cog):
     """Cog to handle music playback commands."""
     def __init__(self, bot):
         self.bot = bot
-        self.adminID = adminID          # Admin ID for the bot
+        self.adminID = int(adminID)          # Admin ID for the bot
         self.current_ctx = None         # Tracks the current context for the bot
         self.current_volume = None      # Default volume level for playback
         self.Queue = Queue()            # Queue to manage upcoming songs
         self.auto_play= False           # should auto play or not 
+        self.song_repeat=False          # Repeat the song or not
         
     async def is_bot_connected_to_voice(self, ctx) -> bool:
         """Check if the bot is connected to a voice channel."""
@@ -218,9 +229,12 @@ class Player(commands.Cog):
     
     async def is_user_authorized_to_control(self, ctx) -> bool:
         """Check if the user is authorized to control the bot."""
-        if ctx.voice_client and (ctx.author.voice and ctx.voice_client.channel == ctx.author.voice.channel) or ctx.author.id == self.adminID or ctx.author.id == self.bot.user.id: # admin get's full permision
+        # print(ctx)
+        # print(ctx.voice_client)
+        
+        if ctx.voice_client and ( ( ctx.author.voice and (ctx.voice_client.channel == ctx.author.voice.channel) ) or (ctx.author.id == self.adminID) or (ctx.author.id == self.bot.user.id) ): # admin get's full permision
             return True
-        elif ctx.author.voice is None:
+        elif not hasattr(ctx.author, "voice"):
             embed = discord.Embed(
                 title="Error",
                 description="Please connect to the voice channel.",
@@ -263,17 +277,44 @@ class Player(commands.Cog):
                     self.auto_play= True
                     
                 song = self.Queue.get()
-                source = FFmpegPCMAudio(song['url'], **ffmpeg_options)
-                source = PCMVolumeTransformer(source, self.current_volume/100)
                 
-                ctx.voice_client.play(source, after=lambda e: self.bot.loop.create_task(self.play_song(ctx) if self.auto_play is True else None ))
+                async def play_next_song(error=None):
+                    if error:
+                        logger.error(f"Playback error: {error}")
+                    
+                    # Ensure the bot is still connected before attempting to play the next song
+                    if ctx.voice_client and ctx.voice_client.is_connected():
+                        if self.auto_play:
+                            if self.song_repeat:
+                                source = FFmpegPCMAudio(song['url'], **ffmpeg_options)
+                                source = PCMVolumeTransformer(source, self.current_volume/100)
+                                ctx.voice_client.play(source, after=lambda e: self.bot.loop.create_task(play_next_song(e)))
+                                
+                                embed = discord.Embed(title="Now Playing", description=f"**{song['title']}**", color=discord.Color.blue())
+                                await ctx.send(embed=embed)
+                                logger.info(f"Playing song: {song['title']}")
+                            else:
+                                await self.play_song(ctx)
+                        else:
+                            logger.info("Auto play is disabled, not playing the next song.")
+                    else:
+                        logger.warning("Bot disconnected from the voice channel, stopping playback.")
+                     
+                source = FFmpegPCMAudio(song['url'], **ffmpeg_options)
+                source = PCMVolumeTransformer(source, self.current_volume/100)       
+                ctx.voice_client.play(source, after=lambda e: self.bot.loop.create_task(play_next_song(e)))
         
                 embed = discord.Embed(title="Now Playing", description=f"**{song['title']}**", color=discord.Color.blue())
                 await ctx.send(embed=embed)
                 logger.info(f"Playing song: {song['title']}")
+            
             else:
-                logger.info("Queue is now empty.")
-                embed = discord.Embed(title="Queue Empty", description="The queue is empty.", color=discord.Color.red())
+                logger.info("Playback finished.")
+                embed = discord.Embed(
+                    title="Playback Finished",
+                    description="All songs have been finished.",
+                    color=discord.Color.blue()
+                )
                 await ctx.send(embed=embed)
                 
         except Exception as e:
@@ -304,6 +345,7 @@ class Player(commands.Cog):
                 "`stop` - Stops the current song and clears the queue.\n"
                 "`disconnect` - Disconnects the bot from the voice channel.\n"
                 "`queue` - Gives you list of upcomming songs.\n"
+                "`repeat` - Toggles repeat mode."
             ), inline=False)
 
             embed.add_field(name="Sources", value=(
@@ -324,6 +366,7 @@ class Player(commands.Cog):
                 'stop': "`stop` - Stops the current song and clears the queue. Use this command to stop the playback and remove all songs from the queue.",
                 'disconnect': "`disconnect` - Disconnects the bot from the voice channel. Use this command when you want to stop the bot from playing music and disconnect it from the voice channel.",
                 'queue':" queue Gives you list of all upcomming songs from the queue with their indexes you can use `skip` command to jump to the corrosponding index of the song",
+                'repeat':"Toggles repeat mode for current playing media.",
                 'sitelist': "`sitelist` - Lists the websites from which you can play audio. This command provides a list of supported websites for audio playback.",
                 'help': "`help` - Shows this help message. Use this command to get information about all available commands."
             }
@@ -462,6 +505,27 @@ class Player(commands.Cog):
             await ctx.send(embed=embed)
             logger.error(f"Error in playnow command: {e}")
         
+    @commands.hybrid_command(name="repeat", with_app_command=True)
+    async def repeat(self,ctx):
+        """Toggles repeat mode."""
+        if self.song_repeat is False :
+            self.song_repeat=True
+            embed = discord.Embed(
+                title="Repeat Mode",
+                description=f"Repeat mode Turned **ON** :white_check_mark:",
+                color=discord.Color.blue()
+            )
+        else: 
+            self.song_repeat=False
+            embed = discord.Embed(
+                title="Repeat Mode",
+                description=f"Repeat mode Turned **OFF** :negative_squared_cross_mark: ",
+                color=discord.Color.blue()
+            )
+        
+        logger.info(f"Repeat mode tuned : {self.song_repeat}")
+        await ctx.send(embed=embed)
+        
     @commands.hybrid_command(name="pause", with_app_command=True)
     async def pause(self, ctx):
         """Pause the currently playing song."""
@@ -497,7 +561,7 @@ class Player(commands.Cog):
     @commands.hybrid_command(name="skip", with_app_command=True)
     async def skip(self, ctx, index=None):
         """
-        Command to skip the current song and play the next one.
+        skip the current song and play the next one.
 
         Args:
             ctx (commands.Context): The context in which the command was invoked.
@@ -544,6 +608,7 @@ class Player(commands.Cog):
         if await self.is_user_authorized_to_control(ctx):
             self.Queue.clear()
             self.auto_play = False
+            self.song_repeat= False
             ctx.voice_client.stop()
             embed = discord.Embed(title="Stopped", description="Playback has been stopped, and the queue is cleared.", color=discord.Color.red())
             await ctx.send(embed=embed)
@@ -564,13 +629,6 @@ class Player(commands.Cog):
                 )
                 await ctx.send(embed=embed)
                 logger.info("Bot disconnected from voice channel.")
-            else:
-                embed = discord.Embed(
-                    title="Error",
-                    description="Bot is not connected to a voice channel.",
-                    color=discord.Color.red()
-                )
-                await ctx.send(embed=embed)
             
         except Exception as e:
                 embed = discord.Embed(
@@ -608,58 +666,93 @@ class Player(commands.Cog):
     @commands.hybrid_command(name="volume", with_app_command=True)
     async def volume(self, ctx, volume = None):
         """Set the volume level or return the current volume if no value is provided."""
-        if await self.is_user_authorized_to_control(ctx):
-            try:
-                if volume is None:
+        try:
+            if True:
+                if not await self.is_bot_connected_to_voice(ctx):
                     embed = discord.Embed(
-                        title="Current Volume",
-                        description=f"The current volume is :{self.current_volume}%",
-                        color=discord.Color.blue()
-                    )
-                    await ctx.send(embed=embed)
-                else:
-                    volume= int(volume)
-                    if not 0 <= volume <= 100:
-                        embed = discord.Embed(
-                            title="Invalid Volume",
-                            description="Volume must be between 0 and 100.",
+                            title="Error",
+                            description=f"The Bot is not connected to any voice channel.",
                             color=discord.Color.red()
                         )
-                        await ctx.send(embed=embed)
-                        return
-                    
-                    self.current_volume = volume
-                    ctx.voice_client.source.volume = self.current_volume / 100
-                    embed = discord.Embed(title="Volume Set", description=f"Volume has been set to {volume}%.", color=discord.Color.green())
                     await ctx.send(embed=embed)
-                    logger.info(f"Volume set to {volume}%.")
-                    
-            except ValueError:
+                    return 
+                
+                if await self.is_user_authorized_to_control(ctx):
+                    if volume is None:
+                        embed = discord.Embed(
+                            title="Current Volume",
+                            description=f"The current volume is :{self.current_volume}%",
+                            color=discord.Color.blue()
+                        )
+                        await ctx.send(embed=embed)
+                    else:
+                        volume= int(volume)
+                        if not 0 <= volume <= 100:
+                            embed = discord.Embed(
+                                title="Invalid Volume",
+                                description="Volume must be between 0 and 100.",
+                                color=discord.Color.red()
+                            )
+                            await ctx.send(embed=embed)
+                            return
+                        
+                        self.current_volume = volume
+                        if ctx.voice_client.source:
+                            ctx.voice_client.source.volume = self.current_volume / 100
+                            
+                        embed = discord.Embed(title="Volume Set", description=f"Volume has been set to {volume}%.", color=discord.Color.green())
+                        await ctx.send(embed=embed)
+                        logger.info(f"Volume set to {volume}%.")
+                else: 
+                    logger.warn("Unauthorized attempt in Volume command!")
+            else:
                 embed = discord.Embed(
-                    title="Invalid Volume Level",
-                    description="Please enter a volume level between 0 to 100.",
+                    title="Error",
+                    description="Bot is not connected to voice channel.",
                     color=discord.Color.red()
                 )
                 await ctx.send(embed=embed)
-                logger.error(f"Invalid Volume Level input:{volume}")
+            
+        except ValueError:
+            embed = discord.Embed(
+                title="Invalid Volume Level",
+                description="Please enter a volume level between 0 to 100.",
+                color=discord.Color.red()
+            )
+            await ctx.send(embed=embed)
+            logger.error(f"Invalid Volume Level")
+            
+        except Exception:
+            embed = discord.Embed(
+                title="Something went wrong!",
+                color=discord.Color.red()
+            )
+            await ctx.send(embed=embed)
+            logger.error(f"Something went wrong for volume command : {volume}")
             
     @commands.Cog.listener()
     async def on_voice_state_update(self, member, before, after):
         """Handles voice state updates, including when a member leaves the voice channel."""
-        if self.current_ctx and self.current_ctx.voice_client and before.channel and not after.channel and member == self.current_ctx.author:
-            # Notify that the member has left the voice channel
-            embed = discord.Embed(
-                title="Voice Channel Update",
-                description=f"{member.mention} has left the voice channel. The bot will now disconnect.",
-                color=discord.Color.red()
-            )
-            message= await self.current_ctx.send(embed=embed)
-            tempctx = await bot.get_context(message)
-            # Log the event
-            logger.info(f"{member} has left the voice channel. Disconnecting the bot.")
+        
+        if before.channel and not after.channel:
+            members_in_channel = before.channel.members
             
-            # Disconnect the bot from the voice channel
-            await self.disconnect(tempctx)
+            # Check if the bot is the only member left in the voice channel
+            if len(members_in_channel) == 1 and members_in_channel[0] == self.bot.user:
+                # Notify that the bot is the only member left in the voice channel
+                embed = discord.Embed(
+                    title="Voice Channel Update",
+                    description="The bot is now the only member in the voice channel. It will disconnect.",
+                    color=discord.Color.red()
+                )
+                logger.info("Bot is the only member in the voice channel. Disconnecting the bot.")
+                
+                if self.current_ctx and self.current_ctx.channel:
+                    message = await self.current_ctx.channel.send(embed=embed)
+                    tempctx = await bot.get_context(message)
+                    print(tempctx.voice_client)
+                    # Disconnect the bot from the voice channel
+                    await self.disconnect(tempctx)                           
                 
 if __name__ == '__main__':
     bot = Spoty_bot()
