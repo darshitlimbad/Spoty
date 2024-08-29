@@ -4,9 +4,11 @@ Welcome to Spoty, your ultimate Discord music companion! Spoty offers seamless a
 
 ## Commands
 
+- **`join`**: Joins the bot to the voice channel that you are currently in. Use this command when you want the bot to connect to your voice channel so it can start playing music or other audio.
 - **`play`**: Plays song from the given song query. This command starts playing the song that matches the given query.
 - **`playnow`**: Stops current playback, clears the queue, and immediately plays the specified song. This command is useful if you want to clear the queue and play a new song immediately.
 - **`sourceplay`**: Plays media from the given URL or query. For a list of supported URLs, see `sitelist`. This command is used to play media from a specified URL or query.
+- **`playlist`**: Accepts a YouTube playlist URL and fetches the entire playlist, then starts playing it. This command is used to queue up and play all the songs from a specified YouTube playlist.
 - **`pause`**: Pauses the current song. Use this command if you want to temporarily stop the playback of the current song.
 - **`resume`**: Resumes the current song. Use this command to continue playback if a song was previously paused.
 - **`skip`**: Skips the currently playing song and plays the next song in the queue. This command is used to skip the current song and proceed to the next one.
