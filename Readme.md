@@ -30,15 +30,14 @@ Welcome to Spoty, your ultimate Discord music companion! Spoty offers seamless a
    Ensure you have Python 3.8+ installed. Then install the required libraries:
 
     ```bash
-    pip install discord.py
-    pip install yt_dlp
+    pip install -r requirements.txt
     ```
 
     Additionally, make sure you have [FFMPEG](https://ffmpeg.org/download.html) downloaded and installed.
 
 3. **Configure Your Bot:**
 
-    Give your bot all of the permission and then,
+    Give your bot all of the permission and connect the bot in any channel you want then
     Create a `config.json` file in the root directory with the following structure:
 
     ```json
@@ -48,7 +47,7 @@ Welcome to Spoty, your ultimate Discord music companion! Spoty offers seamless a
         "ADMINID": "YOUR_DISCORD_ADMIN_ID"  
     }
     ``` 
-    Node: ADMINID is optional if you don't want to give admin id just make it any number like 1232 any thing.
+    Note: ADMINID is optional if you don't want to give admin id just make it any number like 1232 any thing.
 
 4. **Run the Bot:**
 
@@ -71,6 +70,4 @@ IDK :)
 
 ## Contact
 
-For any issues or questions, feel free to reach out (please don't :) ):
-
-- **Discord:** [darshitlimbad](https://discord.com/darshitlimbad)
+For any issues or questions, feel free to reach out ( please don't :) )

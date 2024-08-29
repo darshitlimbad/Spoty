@@ -1,6 +1,4 @@
-**/.venv/
-**/config.json
-**/__pycache__
-
-/pkgManager.md
-/temp.py
+/.venv/
+/__pycache__
+/.vscode
+/config.json

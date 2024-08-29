@@ -14,6 +14,13 @@ class Queue:
             return True
         raise IndexError("Index out of range")
     
+    def merge(self, merge_list):
+        if len(merge_list):
+            for item in merge_list:
+                self.Queue.append(item)
+            return True
+        return False
+    
     def shuffle_index(self, from_index: int, to_index: int) -> bool :
         if 0 <= from_index < self.qsize() and 0 <= to_index < self.qsize():
             self.Queue.insert(to_index, self.Queue.pop(from_index))
