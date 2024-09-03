@@ -27,6 +27,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+          pip install -U --force-reinstall https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz
 
       - name: Create config.json from secrets
         run: |
