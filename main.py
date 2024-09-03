@@ -766,7 +766,7 @@ class Player(commands.Cog):
     async def queue(self, ctx):
         """Display the current song queue."""
         try:
-            if self.is_user_authorized_to_control():
+            if await self.is_user_authorized_to_control(ctx):
                 if self.Queue.is_empty():
                     embed = discord.Embed(
                         title="Queue Empty",
