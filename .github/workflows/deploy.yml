@@ -21,7 +21,7 @@ jobs:
 
       - name: Install FFmpeg
         run: |
-          choco install ffmpeg --confirm
+          choco install ffmpeg --confirm --no-progress
 
       - name: Install dependencies
         run: |
@@ -30,11 +30,13 @@ jobs:
 
       - name: Create config.json from secrets
         run: |
-          echo {
-            "TOKEN": "${{ secrets.DISCORD_BOT_TOKEN }}",
-            "PREFIX": "${{ secrets.BOT_PREFIX }}",
-            "ADMINID": "${{ secrets.DISCORD_ADMIN_ID }}"
-          } > config.json
+            $json = @{
+              TOKEN   = "${{ secrets.DISCORD_BOT_TOKEN }}"
+              PREFIX  = "${{ secrets.BOT_PREFIX }}"
+              ADMINID = "${{ secrets.DISCORD_ADMIN_ID }}"
+            } | ConvertTo-Json -Compress
+            Set-Content -Path config.json -Value $json
+          shell: pwsh
 
       - name: Run Spoty Bot
         run: |
