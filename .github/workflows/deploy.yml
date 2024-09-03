@@ -30,13 +30,13 @@ jobs:
 
       - name: Create config.json from secrets
         run: |
-            $json = @{
-              TOKEN   = "${{ secrets.DISCORD_BOT_TOKEN }}"
-              PREFIX  = "${{ secrets.BOT_PREFIX }}"
-              ADMINID = "${{ secrets.DISCORD_ADMIN_ID }}"
-            } | ConvertTo-Json -Compress
-            Set-Content -Path config.json -Value $json
-          shell: pwsh
+          $json = @{
+            TOKEN   = "${{ secrets.DISCORD_BOT_TOKEN }}"
+            PREFIX  = "${{ secrets.BOT_PREFIX }}"
+            ADMINID = "${{ secrets.DISCORD_ADMIN_ID }}"
+          } | ConvertTo-Json -Compress
+          Set-Content -Path config.json -Value $json
+        shell: pwsh
 
       - name: Run Spoty Bot
         run: |
