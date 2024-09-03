@@ -1,0 +1,41 @@
+name: Deploy Spoty Bot
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Create config.json from secrets
+        run: |
+          echo '{
+            "TOKEN": "${{ secrets.DISCORD_BOT_TOKEN }}",
+            "PREFIX": "${{ secrets.BOT_PREFIX }}",
+            "ADMINID": "${{ secrets.DISCORD_ADMIN_ID }}"
+          }' > config.json
+
+      - name: Run Spoty Bot
+        run: |
+          python main.py

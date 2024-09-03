@@ -2,4 +2,3 @@ discord.py
 yt_dlp
 logging
 colorlog
-PyNaCl
