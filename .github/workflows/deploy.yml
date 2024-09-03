@@ -21,8 +21,7 @@ jobs:
 
       - name: Install FFmpeg
         run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg
+          choco install ffmpeg --confirm
 
       - name: Install dependencies
         run: |
@@ -31,11 +30,11 @@ jobs:
 
       - name: Create config.json from secrets
         run: |
-          echo '{
+          echo {
             "TOKEN": "${{ secrets.DISCORD_BOT_TOKEN }}",
             "PREFIX": "${{ secrets.BOT_PREFIX }}",
             "ADMINID": "${{ secrets.DISCORD_ADMIN_ID }}"
-          }' > config.json
+          } > config.json
 
       - name: Run Spoty Bot
         run: |
