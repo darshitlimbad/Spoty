@@ -1,4 +1,5 @@
 import yt_dlp
+import discord
 from Modules.logger import logger
 
 class Queue:
@@ -113,7 +114,7 @@ def search_by_query(query):
         return {'title': None, 'url': None}
 
 def fetch_playlist(playlist_url: str):
-    """Fetch a playlist from YouTube by URL and retrieve the best audio URL for each track.
+    """Fetch a playlist from YouTube by URL and retrieve the best audio URL for each track, The playlist should not have any unavailable songs listed.
 
     Args:
         playlist_url (str): The URL of the YouTube playlist.
@@ -128,15 +129,16 @@ def fetch_playlist(playlist_url: str):
             'extract_flat': False,  # Extract full metadata
             'playlist_items': '1-',  # Fetch all items in the playlist
             'noplaylist': False,  # Ensure playlist processing is enabled
+            'ignoreerrors': True,  # Ignore errors for unavailable videos
         }
 
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info = ydl.extract_info(playlist_url, download=False)
-
+                
             playlist_songs = []
             if 'entries' in info:
                 for entry in info['entries']:
-                    if entry.get('title') and entry.get('formats'):
+                    if entry and entry.get('title') and entry.get('formats'):
                         # Filter the formats to get the best audio URL
                         best_audio = max(
                             (f for f in entry['formats'] if f.get('acodec') != 'none' and f.get('abr') is not None),

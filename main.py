@@ -1,6 +1,3 @@
-# import discord
-# from discord.ext import commands
-
 from Modules.DB.database import MySQLConnection
 from Modules.Bot.init import *
 from Modules.utils import * 
