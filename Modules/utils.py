@@ -70,7 +70,7 @@ def search_song(query):
         }
         
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            info = ydl.extract_info(f"{query} Song or Music", download=False)
+            info = ydl.extract_info(f"{query} full Song", download=False)
             if 'entries' in info:
                 audio = info['entries'][0]
                 return {'title': audio['title'], 'url': audio['url']}
