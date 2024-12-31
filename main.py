@@ -1,4 +1,4 @@
-from Modules.DB.database import MySQLConnection
+# from Modules.DB.database import MySQLConnection
 from Modules.Bot.init import *
 from Modules.utils import * 
     
@@ -9,9 +9,9 @@ def main():
     # Prints LICENCE
     print_license()
     
-    # Mysql Connection
-    db = MySQLConnection()
-    conn = db.get_connection()
+    # # Mysql Connection
+    # db = MySQLConnection()
+    # conn = db.get_connection()
     
     # Discord bot
     bot = Spoty_bot()
