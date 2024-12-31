@@ -10,8 +10,8 @@ def main():
     print_license()
     
     # Mysql Connection
-    db = MySQLConnection()
-    conn = db.get_connection()
+    # db = MySQLConnection()
+    # conn = db.get_connection()
     
     # Discord bot
     bot = Spoty_bot()

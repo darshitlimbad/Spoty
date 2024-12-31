@@ -625,8 +625,9 @@ class Player(commands.Cog):
                     await ctx.send(embed=embed)
                     return
 
-                embed = format_queue(self.Queue.queue())
-                await ctx.send(embed=embed)
+                embeds = format_queue(self.Queue.queue())
+                for embed in embeds:
+                    await ctx.send(embed=embed)
         except Exception as e:
             embed = discord.Embed(
                 title="Error",
@@ -635,7 +636,7 @@ class Player(commands.Cog):
             )
             await ctx.send(embed=embed)
             logger.error(f"Error in queue command: {e}")
-            
+
     @commands.hybrid_command(name="volume", with_app_command=True)
     async def volume(self, ctx, volume = None):
         """Set the volume level or return the current volume if no value is provided."""
@@ -724,4 +725,4 @@ class Player(commands.Cog):
                     message = await self.current_ctx.channel.send(embed=embed)
                     tempctx = await self.bot.get_context(message)
                     # Disconnect the bot from the voice channel
-                    await self.disconnect(tempctx)      
+                    await self.disconnect(tempctx)
