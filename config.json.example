@@ -4,7 +4,7 @@
         "PREFIX": "!",
         "ADMINID": "YOUR_DISCORD_ADMIN_ID"  
     },
-  
+    
     "database": {
         "host": "Your Host",
         "username": "Your Username",
