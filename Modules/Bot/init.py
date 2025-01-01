@@ -641,51 +641,44 @@ class Player(commands.Cog):
     async def volume(self, ctx, volume = None):
         """Set the volume level or return the current volume if no value is provided."""
         try:
-            if True:
-                if not await self.is_bot_connected_to_voice(ctx):
+            if not await self.is_bot_connected_to_voice(ctx):
+                embed = discord.Embed(
+                        title="Error",
+                        description=f"The Bot is not connected to any voice channel.",
+                        color=discord.Color.red()
+                    )
+                await ctx.send(embed=embed)
+                return 
+            
+            if await self.is_user_authorized_to_control(ctx):
+                if volume is None:
                     embed = discord.Embed(
-                            title="Error",
-                            description=f"The Bot is not connected to any voice channel.",
+                        title="Current Volume",
+                        description=f"The current volume is :{self.current_volume}%",
+                        color=discord.Color.blue()
+                    )
+                    await ctx.send(embed=embed)
+                else:
+                    volume= int(volume)
+                    if not 0 <= volume <= 100:
+                        embed = discord.Embed(
+                            title="Invalid Volume",
+                            description="Volume must be between 0 and 100.",
                             color=discord.Color.red()
                         )
-                    await ctx.send(embed=embed)
-                    return 
-                
-                if await self.is_user_authorized_to_control(ctx):
-                    if volume is None:
-                        embed = discord.Embed(
-                            title="Current Volume",
-                            description=f"The current volume is :{self.current_volume}%",
-                            color=discord.Color.blue()
-                        )
                         await ctx.send(embed=embed)
-                    else:
-                        volume= int(volume)
-                        if not 0 <= volume <= 100:
-                            embed = discord.Embed(
-                                title="Invalid Volume",
-                                description="Volume must be between 0 and 100.",
-                                color=discord.Color.red()
-                            )
-                            await ctx.send(embed=embed)
-                            return
+                        return
+                    
+                    self.current_volume = volume
+                    if ctx.voice_client.source:
+                        ctx.voice_client.source.volume = self.current_volume / 100
                         
-                        self.current_volume = volume
-                        if ctx.voice_client.source:
-                            ctx.voice_client.source.volume = self.current_volume / 100
-                            
-                        embed = discord.Embed(title="Volume Set", description=f"Volume has been set to {volume}%.", color=discord.Color.green())
-                        await ctx.send(embed=embed)
-                        logger.info(f"Volume set to {volume}%.")
-                else: 
-                    logger.warn("Unauthorized attempt in Volume command!")
-            else:
-                embed = discord.Embed(
-                    title="Error",
-                    description="Bot is not connected to voice channel.",
-                    color=discord.Color.red()
-                )
-                await ctx.send(embed=embed)
+                    embed = discord.Embed(title="Volume Set", description=f"Volume has been set to {volume}%.", color=discord.Color.green())
+                    await ctx.send(embed=embed)
+                    logger.info(f"Volume set to {volume}%.")
+            else: 
+                logger.warn("Unauthorized attempt in Volume command!")
+            
             
         except ValueError:
             embed = discord.Embed(
