@@ -3,7 +3,7 @@ from Modules.Bot.init import *
 from Modules.utils import * 
     
 from Modules.logger import logger
-from Modules.PrintLicence import print_license
+from Modules.PrintLicense import print_license
 
 def main():
     # Prints LICENCE

@@ -7,7 +7,10 @@ def setup_logger():
     handler.setFormatter(colorlog.ColoredFormatter(
         "%(log_color)s %(asctime)s %(levelname)s: %(message)s"
     ))
-
+    
+    # Configure logging to write to a file
+    logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+    
     # Create and configure the logger
     logger = colorlog.getLogger('colored_logger')
     logger.addHandler(handler)
