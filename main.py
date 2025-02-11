@@ -10,12 +10,13 @@ def main():
     print_license()
     
     # Mysql Connection
-    # db = MySQLConnection()
-    # conn = db.get_connection()
+    db = MySQLConnection()
+    conn = db.get_connection()
     
     # Discord bot
     bot = Spoty_bot()
     bot.run(discord_token)
+    # print(search_song("die with a smile"))
 
 if __name__ == '__main__':
     main()
