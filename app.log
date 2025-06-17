@@ -1,0 +1,2140 @@
+2025-02-11 16:22:01,205 - INFO - logging in using static token
+2025-02-11 16:22:03,773 - INFO - Shard ID None has connected to Gateway (Session ID: cb8018c8a9cec3b5a73e95f5b1524d3f).
+2025-02-11 16:22:06,525 - INFO - Bot is online and ready to serve.
+2025-02-11 16:22:19,160 - INFO - Connecting to voice...
+2025-02-11 16:22:19,160 - INFO - Starting voice handshake... (connection attempt 1)
+2025-02-11 16:22:19,808 - INFO - Voice handshake complete. Endpoint found: india10024.discord.media
+2025-02-11 16:22:20,536 - INFO - Voice connection complete.
+2025-02-11 16:22:21,020 - INFO - Connected to voice channel: Chill.
+2025-02-11 16:22:33,735 - INFO - Playing song: Maula Mere Maula | Anwar (2007) | Siddharth Koirala | Nauheed Cyrusi| Bollywood Romantic Song
+2025-02-11 16:22:52,782 - INFO - Added media to queue: TUM SE HI
+2025-02-11 16:23:21,688 - INFO - Added media to queue: TUM SE HI
+2025-02-11 16:24:06,195 - INFO - Added media to queue: TUMSE MILKE DIL KA
+2025-02-11 16:24:42,314 - INFO - Added media to queue: Aankhein Khuli Song | Mohabbatein | Shah Rukh Khan, Aishwarya Rai | Lata Mangeshkar, Udit Narayan
+2025-02-11 16:27:21,161 - INFO - ffmpeg process 11852 successfully terminated with return code of 0.
+2025-02-11 16:27:22,008 - INFO - Playing song: TUM SE HI
+2025-02-11 16:29:45,326 - INFO - Song skipped.
+2025-02-11 16:29:45,345 - INFO - ffmpeg process 5524 has not terminated. Waiting to terminate...
+2025-02-11 16:29:45,354 - INFO - ffmpeg process 5524 should have terminated with a return code of 1.
+2025-02-11 16:29:47,215 - INFO - Playing song: TUM SE HI
+2025-02-11 16:32:29,288 - INFO - Song skipped.
+2025-02-11 16:32:29,318 - INFO - ffmpeg process 18540 has not terminated. Waiting to terminate...
+2025-02-11 16:32:29,364 - INFO - ffmpeg process 18540 should have terminated with a return code of 1.
+2025-02-11 16:32:29,914 - INFO - Playing song: TUMSE MILKE DIL KA
+2025-02-11 16:38:28,660 - INFO - ffmpeg process 17360 successfully terminated with return code of 0.
+2025-02-11 16:38:33,271 - INFO - Playing song: Aankhein Khuli Song | Mohabbatein | Shah Rukh Khan, Aishwarya Rai | Lata Mangeshkar, Udit Narayan
+2025-02-11 16:47:28,098 - INFO - ffmpeg process 4528 successfully terminated with return code of 0.
+2025-02-11 16:47:28,617 - INFO - Playback finished.
+2025-02-11 16:51:43,034 - INFO - Playing song: \U0001f534 Live | Kishore Kumar evergreen hits songs | Old Bollywood Songs Playlist
+2025-02-11 16:56:11,780 - ERROR - Disconnected from voice... Reconnecting in 1.04s.
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\voice_state.py", line 598, in _poll_voice_ws
+    await self.ws.poll_event()
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 1037, in poll_event
+    raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1006
+2025-02-11 16:56:12,892 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-02-11 16:56:12,893 - INFO - Connecting to voice...
+2025-02-11 16:56:12,895 - INFO - Starting voice handshake... (connection attempt 1)
+2025-02-11 16:56:13,805 - INFO - Voice handshake complete. Endpoint found: india10024.discord.media
+2025-02-11 16:56:14,438 - INFO - Voice connection complete.
+2025-02-11 17:31:19,602 - INFO - ffmpeg process 19896 has not terminated. Waiting to terminate...
+2025-02-11 17:31:19,612 - INFO - ffmpeg process 19896 should have terminated with a return code of 1.
+2025-02-11 17:31:19,620 - INFO - Auto play is disabled, not playing the next song.
+2025-02-11 17:31:20,255 - INFO - Playback stopped and queue cleared.
+2025-02-11 17:31:39,492 - INFO - Playing song: Choot Vol. 1
+2025-02-11 17:35:00,866 - ERROR - Invalid input for index: https://youtu.be/eM8Mjuq4MwQ?si=FN3UXEgr9p6SLpKk
+2025-02-11 17:35:14,571 - INFO - Added media to queue: Aankhein Khuli Song | Mohabbatein | Shah Rukh Khan, Aishwarya Rai | Lata Mangeshkar, Udit Narayan
+2025-02-11 17:35:20,192 - INFO - Song skipped.
+2025-02-11 17:35:20,210 - INFO - ffmpeg process 12744 has not terminated. Waiting to terminate...
+2025-02-11 17:35:20,225 - INFO - ffmpeg process 12744 should have terminated with a return code of 1.
+2025-02-11 17:35:23,754 - INFO - Playing song: Aankhein Khuli Song | Mohabbatein | Shah Rukh Khan, Aishwarya Rai | Lata Mangeshkar, Udit Narayan
+2025-02-11 17:41:55,243 - INFO - Added media to queue: Zaalima
+2025-02-11 17:43:30,787 - INFO - Song skipped.
+2025-02-11 17:43:30,789 - INFO - ffmpeg process 24228 has not terminated. Waiting to terminate...
+2025-02-11 17:43:30,808 - INFO - ffmpeg process 24228 should have terminated with a return code of 1.
+2025-02-11 17:43:35,085 - INFO - Playing song: Zaalima
+2025-02-11 17:44:05,238 - INFO - Added media to queue: Lady Gaga, Bruno Mars - Die With A Smile
+2025-02-11 17:44:26,938 - INFO - Added media to queue: yung kai - blue (Lyrics)
+2025-02-11 17:45:11,449 - INFO - Added media to queue: Downers At Dusk - Talha Anjum | Prod. by Umair (Official Music Video)
+2025-02-11 17:45:32,584 - INFO - Added media to queue: One Of The Girls X Good For You - The Weeknd, JENNIE, Lily-Rose Depp & Selena Gómez | Mashup by Me
+2025-02-11 17:45:47,973 - INFO - Added media to queue: Long time no see
+2025-02-11 17:46:38,256 - INFO - Volume set to 30%.
+2025-02-11 17:47:39,220 - INFO - Playback paused.
+2025-02-11 18:12:32,720 - INFO - logging in using static token
+2025-02-11 18:12:36,824 - INFO - Shard ID None has connected to Gateway (Session ID: cb668b3e718809b8206a992cda077830).
+2025-02-11 18:12:39,623 - INFO - Bot is online and ready to serve.
+2025-02-11 18:13:00,418 - INFO - Connecting to voice...
+2025-02-11 18:13:00,418 - INFO - Starting voice handshake... (connection attempt 1)
+2025-02-11 18:13:00,996 - INFO - Voice handshake complete. Endpoint found: india10024.discord.media
+2025-02-11 18:13:01,896 - INFO - Voice connection complete.
+2025-02-11 18:13:02,526 - INFO - Connected to voice channel: Chill.
+2025-02-11 18:13:20,637 - INFO - Playing song: Choot Vol. 1
+2025-02-11 18:13:38,231 - INFO - Added song to queue: Bhaag D.K. Bose, Aandhi Aayi | Ram Sampath | Imraan Khan,Vir Das,Kunal Roy Kapur | Delhi Belly
+2025-02-11 18:13:52,678 - INFO - Added song to queue: Official: Issey Kehte Hain Hip Hop Full Video Song | Yo Yo Honey Singh | World Music Day
+2025-02-11 18:13:55,420 - WARNING - CommandNotFound: !plat choot vol 2
+2025-02-11 18:14:01,980 - INFO - Added song to queue: Glassy | Yo Yo Honey Singh & Ashok Mastie | Channi Rakhala | Vinnil Markan | 1st Song
+2025-02-11 18:14:34,276 - INFO - Added song to queue: Chaar Botal Vodka Full Song Feat. Yo Yo Honey Singh, Sunny Leone | Ragini MMS 2
+2025-02-11 18:16:17,414 - INFO - Disconnected from voice by force... potentially reconnecting.
+2025-02-11 18:16:20,559 - INFO - Disconnected from voice by force... potentially reconnecting.
+2025-02-11 18:18:18,513 - INFO - ffmpeg process 11828 successfully terminated with return code of 0.
+2025-02-11 18:18:22,504 - INFO - Playing song: Bhaag D.K. Bose, Aandhi Aayi | Ram Sampath | Imraan Khan,Vir Das,Kunal Roy Kapur | Delhi Belly
+2025-02-11 18:22:02,881 - INFO - Volume set to 20%.
+2025-02-11 18:22:22,630 - INFO - ffmpeg process 19080 successfully terminated with return code of 0.
+2025-02-11 18:22:27,505 - INFO - Playing song: Official: Issey Kehte Hain Hip Hop Full Video Song | Yo Yo Honey Singh | World Music Day
+2025-02-11 18:25:28,621 - INFO - Added song to queue: Hai Apna Dil l The Xpose l Himesh Reshammiya, Yo Yo Honey Singh
+2025-02-11 18:25:48,422 - INFO - ffmpeg process 21424 successfully terminated with return code of 0.
+2025-02-11 18:25:52,940 - INFO - Playing song: Glassy | Yo Yo Honey Singh & Ashok Mastie | Channi Rakhala | Vinnil Markan | 1st Song
+2025-02-11 18:29:43,130 - INFO - ffmpeg process 8052 successfully terminated with return code of 0.
+2025-02-11 18:29:48,490 - INFO - Playing song: Chaar Botal Vodka Full Song Feat. Yo Yo Honey Singh, Sunny Leone | Ragini MMS 2
+2025-02-11 18:33:37,445 - INFO - ffmpeg process 22676 successfully terminated with return code of 0.
+2025-02-11 18:33:38,935 - INFO - Playing song: Hai Apna Dil l The Xpose l Himesh Reshammiya, Yo Yo Honey Singh
+2025-02-11 18:35:17,297 - INFO - Added media to queue: The Xpose Jukebox Full Songs | Himesh Reshammiya | Honey Singh
+2025-02-11 18:36:24,169 - INFO - ffmpeg process 23320 successfully terminated with return code of 0.
+2025-02-11 18:36:28,574 - INFO - Playing song: The Xpose Jukebox Full Songs | Himesh Reshammiya | Honey Singh
+2025-02-11 19:07:08,222 - INFO - ffmpeg process 2376 successfully terminated with return code of 0.
+2025-02-11 19:07:12,107 - INFO - Playback finished.
+2025-02-11 19:13:01,840 - INFO - Playing song: Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video)
+2025-02-11 19:17:13,570 - INFO - ffmpeg process 19076 successfully terminated with return code of 0.
+2025-02-11 19:17:14,775 - INFO - Playback finished.
+2025-02-11 19:17:54,578 - INFO - Playing song: Top 8 Adele Songs | Adele's Best Songs Playlist | Top English songs | Popular English music playlist
+2025-02-11 19:29:07,683 - INFO - ffmpeg process 1564 has not terminated. Waiting to terminate...
+2025-02-11 19:29:07,693 - INFO - ffmpeg process 1564 should have terminated with a return code of 1.
+2025-02-11 19:29:07,729 - INFO - Auto play is disabled, not playing the next song.
+2025-02-11 19:29:08,299 - INFO - Playback stopped and queue cleared.
+2025-02-11 19:29:26,407 - INFO - Playing song: Stephen Sanchez - Until I Found You (Official Video)
+2025-02-11 19:32:21,343 - INFO - ffmpeg process 19528 successfully terminated with return code of 0.
+2025-02-11 19:32:22,456 - INFO - Playback finished.
+2025-02-11 19:37:41,972 - INFO - Playing song: Main Aa Rahan Hoon - Udit Narayan - Aarzoo [1999]
+2025-02-11 19:39:00,715 - INFO - Volume set to 100%.
+2025-02-11 19:39:30,475 - INFO - Volume set to 40%.
+2025-02-11 19:40:47,810 - INFO - Added song to queue: Main Ja Raha Hu Dur Tum Awaz Doge Kya Full Song | Arijit Singh | Main Ja Raha Hu Dur Hindi Song 2022
+2025-02-11 19:40:50,820 - INFO - Song skipped.
+2025-02-11 19:40:50,837 - INFO - ffmpeg process 14244 has not terminated. Waiting to terminate...
+2025-02-11 19:40:50,854 - INFO - ffmpeg process 14244 should have terminated with a return code of 1.
+2025-02-11 19:40:52,203 - INFO - Playing song: Main Ja Raha Hu Dur Tum Awaz Doge Kya Full Song | Arijit Singh | Main Ja Raha Hu Dur Hindi Song 2022
+2025-02-11 19:44:31,297 - ERROR - Disconnected from voice... Reconnecting in 0.55s.
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\voice_state.py", line 598, in _poll_voice_ws
+    await self.ws.poll_event()
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 1037, in poll_event
+    raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1006
+2025-02-11 19:44:31,871 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-02-11 19:44:31,883 - INFO - Connecting to voice...
+2025-02-11 19:44:31,883 - INFO - Starting voice handshake... (connection attempt 1)
+2025-02-11 19:44:52,177 - INFO - Shard ID None has successfully RESUMED session cb668b3e718809b8206a992cda077830.
+2025-02-11 19:45:01,901 - WARNING - Could not connect to voice... Retrying...
+2025-02-11 19:45:17,514 - INFO - ffmpeg process 4836 has not terminated. Waiting to terminate...
+2025-02-11 19:45:17,524 - INFO - ffmpeg process 4836 should have terminated with a return code of 1.
+2025-02-11 19:45:27,931 - WARNING - Bot disconnected from the voice channel, stopping playback.
+2025-02-11 19:49:27,736 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-02-12 17:23:15,688 - INFO - logging in using static token
+2025-02-12 17:23:20,390 - INFO - Shard ID None has connected to Gateway (Session ID: 9edaaea9a3b1b1f740184a0849912539).
+2025-02-12 17:23:23,309 - INFO - Bot is online and ready to serve.
+2025-02-12 17:23:45,190 - INFO - Connecting to voice...
+2025-02-12 17:23:45,191 - INFO - Starting voice handshake... (connection attempt 1)
+2025-02-12 17:23:45,815 - INFO - Voice handshake complete. Endpoint found: india10025.discord.media
+2025-02-12 17:23:46,362 - INFO - Voice connection complete.
+2025-02-12 17:23:47,158 - INFO - Connected to voice channel: Chill.
+2025-02-12 17:24:23,226 - INFO - Playing song: Choot Vol. 1
+2025-02-12 17:24:26,671 - INFO - Added song to queue: Top 20 Himesh Reshammiya Romantic Hindi Songs 2019 |  Latest Bollywood Songs Collection - Himesh Vo1
+2025-02-12 17:24:35,799 - INFO - Volume set to 20%.
+2025-02-12 17:29:05,589 - INFO - ffmpeg process 9256 successfully terminated with return code of 0.
+2025-02-12 17:29:08,122 - INFO - Playing song: Top 20 Himesh Reshammiya Romantic Hindi Songs 2019 |  Latest Bollywood Songs Collection - Himesh Vo1
+2025-02-12 17:36:20,837 - INFO - Playback paused.
+2025-02-12 17:39:18,952 - WARNING - Can't keep up, shard ID None websocket is 10.1s behind.
+2025-02-12 17:39:18,953 - WARNING - Can't keep up, shard ID None websocket is 10.1s behind.
+2025-02-12 17:41:45,273 - INFO - Playback resumed.
+2025-02-12 17:53:30,386 - INFO - Shard ID None has successfully RESUMED session 9edaaea9a3b1b1f740184a0849912539.
+2025-02-12 18:06:26,615 - INFO - Playback paused.
+2025-02-12 18:54:46,276 - ERROR - Disconnected from voice... Reconnecting in 0.43s.
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\voice_state.py", line 598, in _poll_voice_ws
+    await self.ws.poll_event()
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 1037, in poll_event
+    raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1006
+2025-02-12 18:54:46,781 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-02-12 18:54:46,785 - INFO - Connecting to voice...
+2025-02-12 18:54:46,785 - INFO - Starting voice handshake... (connection attempt 1)
+2025-02-12 18:54:50,054 - INFO - Voice handshake complete. Endpoint found: india10025.discord.media
+2025-02-12 18:54:55,358 - INFO - Voice connection complete.
+2025-02-12 19:20:04,072 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-02-12 19:20:04,114 - WARNING - Bot disconnected from the voice channel, stopping playback.
+2025-02-12 19:20:04,104 - INFO - ffmpeg process 17864 has not terminated. Waiting to terminate...
+2025-02-12 19:20:04,148 - INFO - ffmpeg process 17864 should have terminated with a return code of 1.
+2025-02-12 19:20:20,998 - INFO - logging in using static token
+2025-02-12 19:20:23,871 - INFO - Shard ID None has connected to Gateway (Session ID: df994f9502d1914d0dae6e27e4c034ba).
+2025-02-12 19:20:26,625 - INFO - Bot is online and ready to serve.
+2025-02-12 19:20:34,021 - INFO - Connecting to voice...
+2025-02-12 19:20:34,022 - INFO - Starting voice handshake... (connection attempt 1)
+2025-02-12 19:20:34,621 - INFO - Voice handshake complete. Endpoint found: india10025.discord.media
+2025-02-12 19:20:35,420 - INFO - Voice connection complete.
+2025-02-12 19:20:35,962 - INFO - Connected to voice channel: Chill.
+2025-02-12 19:20:53,942 - INFO - Playing song: Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video)
+2025-02-12 19:21:00,068 - INFO - Added song to queue: Hai Apna Dil l The Xpose l Himesh Reshammiya, Yo Yo Honey Singh
+2025-02-12 19:25:05,560 - INFO - ffmpeg process 16904 successfully terminated with return code of 0.
+2025-02-12 19:25:06,302 - INFO - Playing song: Hai Apna Dil l The Xpose l Himesh Reshammiya, Yo Yo Honey Singh
+2025-02-12 19:32:43,994 - INFO - ffmpeg process 21196 successfully terminated with return code of 0.
+2025-02-12 19:32:46,006 - INFO - Playback finished.
+2025-02-12 19:34:45,967 - INFO - Playing song: Hai Apna Dil l The Xpose l Himesh Reshammiya, Yo Yo Honey Singh
+2025-02-12 19:37:31,445 - INFO - ffmpeg process 6776 successfully terminated with return code of 0.
+2025-02-12 19:37:32,210 - INFO - Playback finished.
+2025-02-12 19:38:11,763 - INFO - Playing song: Yo Yo Honey Singh's BEST PARTY SONGS (22 Videos)| HINDI SONGS 2016 | BOLLYWOOD PARTY SONGS |T-SERIES
+2025-02-12 20:16:26,864 - INFO - ffmpeg process 18400 has not terminated. Waiting to terminate...
+2025-02-12 20:16:26,984 - INFO - Auto play is disabled, not playing the next song.
+2025-02-12 20:16:27,221 - INFO - ffmpeg process 18400 should have terminated with a return code of 1.
+2025-02-12 20:16:28,524 - INFO - Playback stopped and queue cleared.
+2025-02-12 20:16:40,668 - INFO - Playback stopped and queue cleared.
+2025-02-12 20:16:40,670 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-02-12 20:16:41,837 - INFO - Bot disconnected from voice channel.
+2025-02-13 11:54:22,981 - INFO - logging in using static token
+2025-02-13 11:54:25,182 - INFO - Shard ID None has connected to Gateway (Session ID: e2bf3b3c4d705c2d81b2abc914286136).
+2025-02-13 11:54:27,995 - INFO - Bot is online and ready to serve.
+2025-02-13 11:56:14,896 - INFO - Connecting to voice...
+2025-02-13 11:56:14,896 - INFO - Starting voice handshake... (connection attempt 1)
+2025-02-13 11:56:15,540 - INFO - Voice handshake complete. Endpoint found: india10003.discord.media
+2025-02-13 11:56:16,390 - INFO - Voice connection complete.
+2025-02-13 11:56:17,165 - INFO - Connected to voice channel: Chill.
+2025-02-13 11:56:35,286 - INFO - Playing song: Hai Apna Dil l The Xpose l Himesh Reshammiya, Yo Yo Honey Singh
+2025-02-13 11:56:37,688 - INFO - Added song to queue: Sau Tarah Ke | Dishoom | Lyrics
+2025-02-13 11:56:42,462 - INFO - Added song to queue: Baaki Baatein Peene Baad - Arjun Kanungo feat. Badshah | Nikke Nikke Shots | Party Song of The Year
+2025-02-13 11:56:51,263 - INFO - Added song to queue: Chaar Botal Vodka Full Song Feat. Yo Yo Honey Singh, Sunny Leone | Ragini MMS 2
+2025-02-13 11:59:20,213 - INFO - ffmpeg process 15564 successfully terminated with return code of 0.
+2025-02-13 11:59:22,636 - INFO - Playing song: Sau Tarah Ke | Dishoom | Lyrics
+2025-02-13 12:03:19,948 - INFO - ffmpeg process 13428 successfully terminated with return code of 0.
+2025-02-13 12:03:21,798 - INFO - Playing song: Baaki Baatein Peene Baad - Arjun Kanungo feat. Badshah | Nikke Nikke Shots | Party Song of The Year
+2025-02-13 12:07:01,541 - INFO - ffmpeg process 7624 successfully terminated with return code of 0.
+2025-02-13 12:07:03,842 - INFO - Playing song: Chaar Botal Vodka Full Song Feat. Yo Yo Honey Singh, Sunny Leone | Ragini MMS 2
+2025-02-13 12:10:52,606 - INFO - ffmpeg process 17416 successfully terminated with return code of 0.
+2025-02-13 12:10:53,384 - INFO - Playback finished.
+2025-02-13 12:13:48,037 - INFO - Playing song: Agent Vinod Pyar Ki Pungi Full Video Song (HD) | Saif Ali Khan | Pritam
+2025-02-13 12:13:58,937 - INFO - Added song to queue: Jhoom Barabar Jhoom | Full Song | Abhishek Bachchan, Bobby Deol, Preity Zinta, Lara Dutta | Gulzar
+2025-02-13 12:14:20,836 - INFO - Added song to queue: Saaki Saaki Full Song | Musafir | Sanjay Dutt | Koena Mitra
+2025-02-13 12:14:30,596 - INFO - Added song to queue: Bulleya | Full Song | Sultan | Salman Khan, Anushka Sharma | Papon | Vishal & Shekhar | Irshad Kamil
+2025-02-13 12:14:43,967 - INFO - Added song to queue: Fevicol Se Full Video Song Dabangg 2 (Official) \u2605 Kareena Kapoor \u2605 Salman Khan
+2025-02-13 12:14:55,628 - INFO - Added song to queue: Breathless   Shankar Mahadevan Full Version !!!
+2025-02-13 12:17:22,278 - INFO - ffmpeg process 16804 successfully terminated with return code of 0.
+2025-02-13 12:17:25,970 - INFO - Playing song: Jhoom Barabar Jhoom | Full Song | Abhishek Bachchan, Bobby Deol, Preity Zinta, Lara Dutta | Gulzar
+2025-02-13 12:20:13,031 - ERROR - Attempting a reconnect in 1.25s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-02-13 12:20:14,897 - ERROR - Attempting a reconnect in 0.29s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-02-13 12:20:15,206 - ERROR - Attempting a reconnect in 4.78s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-02-13 12:20:17,153 - ERROR - Disconnected from voice... Reconnecting in 1.62s.
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\voice_state.py", line 598, in _poll_voice_ws
+    await self.ws.poll_event()
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 1037, in poll_event
+    raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1006
+2025-02-13 12:20:18,826 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-02-13 12:20:18,828 - INFO - Connecting to voice...
+2025-02-13 12:20:18,829 - INFO - Starting voice handshake... (connection attempt 1)
+2025-02-13 12:20:20,014 - ERROR - Attempting a reconnect in 10.58s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-02-13 12:20:30,641 - ERROR - Attempting a reconnect in 8.05s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-02-13 12:20:38,714 - ERROR - Attempting a reconnect in 58.00s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-02-13 12:21:36,741 - ERROR - Attempting a reconnect in 75.55s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-02-13 12:22:52,314 - ERROR - Attempting a reconnect in 28.59s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-02-13 12:23:20,931 - ERROR - Attempting a reconnect in 233.48s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-02-13 12:27:14,444 - ERROR - Attempting a reconnect in 275.98s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-02-13 12:31:50,457 - ERROR - Attempting a reconnect in 81.25s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-02-13 12:33:11,736 - ERROR - Attempting a reconnect in 866.11s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-02-13 12:34:53,899 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-02-13 12:35:05,167 - INFO - logging in using static token
+2025-02-13 12:35:07,553 - INFO - Shard ID None has connected to Gateway (Session ID: c02bdb5a060b6a3c0eb190772da85dc7).
+2025-02-13 12:35:10,168 - INFO - Bot is online and ready to serve.
+2025-02-13 12:35:36,640 - INFO - Connecting to voice...
+2025-02-13 12:35:36,642 - INFO - Starting voice handshake... (connection attempt 1)
+2025-02-13 12:35:37,237 - INFO - Voice handshake complete. Endpoint found: india10003.discord.media
+2025-02-13 12:35:37,764 - INFO - Voice connection complete.
+2025-02-13 12:35:38,516 - INFO - Connected to voice channel: Chill.
+2025-02-13 12:35:55,420 - INFO - Playing song: Akon - Lonely
+2025-02-13 12:39:22,653 - INFO - Song skipped.
+2025-02-13 12:39:22,669 - INFO - ffmpeg process 22360 has not terminated. Waiting to terminate...
+2025-02-13 12:39:22,686 - INFO - ffmpeg process 22360 should have terminated with a return code of 1.
+2025-02-13 12:39:23,111 - INFO - Playback finished.
+2025-02-17 11:02:03,488 - INFO - logging in using static token
+2025-02-17 11:02:07,130 - INFO - Shard ID None has connected to Gateway (Session ID: 379040dc74516c61406f66f010f5906a).
+2025-02-17 11:02:09,947 - INFO - Bot is online and ready to serve.
+2025-02-17 11:02:20,516 - INFO - Connecting to voice...
+2025-02-17 11:02:20,516 - INFO - Starting voice handshake... (connection attempt 1)
+2025-02-17 11:02:21,868 - INFO - Voice handshake complete. Endpoint found: india10040.discord.media
+2025-02-17 11:02:23,782 - INFO - Voice connection complete.
+2025-02-17 11:02:24,601 - INFO - Connected to voice channel: Chill.
+2025-02-17 11:02:42,872 - INFO - Playing song: Kajra Re | Full Song | Bunty Aur Babli | Aishwarya, Abhishek, Amitabh Bachchan | Shankar-Ehsaan-Loy
+2025-02-17 11:03:33,210 - INFO - Volume set to 20%.
+2025-02-17 11:10:35,918 - INFO - Playback finished.
+2025-02-17 11:10:35,919 - INFO - ffmpeg process 2280 successfully terminated with return code of 0.
+2025-02-17 11:18:38,343 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-02-18 17:07:29,718 - INFO - logging in using static token
+2025-02-18 17:07:32,205 - INFO - Shard ID None has connected to Gateway (Session ID: 31bd2a416d5c262c41fc85d931132ca2).
+2025-02-18 17:07:35,278 - INFO - Bot is online and ready to serve.
+2025-02-18 17:08:13,490 - INFO - Connecting to voice...
+2025-02-18 17:08:13,491 - INFO - Starting voice handshake... (connection attempt 1)
+2025-02-18 17:08:14,065 - INFO - Voice handshake complete. Endpoint found: india10022.discord.media
+2025-02-18 17:08:14,836 - INFO - Voice connection complete.
+2025-02-18 17:08:15,724 - INFO - Connected to voice channel: Chill.
+2025-02-18 17:08:28,388 - INFO - Playing song: CHOOT VOL. 1 - Yo Yo Honey Singh Ft. Badshah (Official Music Video)
+2025-02-18 17:08:32,359 - INFO - Added song to queue: Dus Bahane Karke Le Gaye Dil | Dus | Zayed K, Abhishek B | K K, Shaan | Vishal Dadlani, Shekhar
+2025-02-18 17:08:37,483 - INFO - Added song to queue: ROCKSTAR: Sadda Haq (Full Video) Song | Ranbir Kapoor | A.R. Rahman | Mohit Chauhan | Irshaad Kamil
+2025-02-18 17:08:57,264 - INFO - Added song to queue: Full Video: Masakali | Delhi 6 | Abhishek Bachchan, Sonam Kapoor | A.R. Rahman |  Mohit Chauhan
+2025-02-18 17:09:03,686 - INFO - Added song to queue: Chaar Botal Vodka Full Song Feat. Yo Yo Honey Singh, Sunny Leone | Ragini MMS 2
+2025-02-18 17:09:05,292 - INFO - Added song to queue: Naach Meri Rani: Guru Randhawa Feat. Nora Fatehi | Tanishk Bagchi | Nikhita Gandhi | Bhushan Kumar
+2025-02-18 17:09:21,409 - INFO - Added song to queue: Sau Tarah Ke Full Video Song | Dishoom | John Abraham | Varun Dhawan | Jacqueline Fernandez| Pritam
+2025-02-18 17:09:23,991 - INFO - Volume set to 30%.
+2025-02-18 17:13:21,508 - INFO - ffmpeg process 17276 successfully terminated with return code of 0.
+2025-02-18 17:13:26,021 - INFO - Playing song: Dus Bahane Karke Le Gaye Dil | Dus | Zayed K, Abhishek B | K K, Shaan | Vishal Dadlani, Shekhar
+2025-02-18 17:16:52,656 - INFO - ffmpeg process 18760 successfully terminated with return code of 0.
+2025-02-18 17:16:53,413 - INFO - Playing song: ROCKSTAR: Sadda Haq (Full Video) Song | Ranbir Kapoor | A.R. Rahman | Mohit Chauhan | Irshaad Kamil
+2025-02-18 17:23:41,035 - INFO - ffmpeg process 18772 successfully terminated with return code of 0.
+2025-02-18 17:23:42,526 - INFO - Playing song: Full Video: Masakali | Delhi 6 | Abhishek Bachchan, Sonam Kapoor | A.R. Rahman |  Mohit Chauhan
+2025-02-18 17:27:38,955 - INFO - ffmpeg process 1860 successfully terminated with return code of 0.
+2025-02-18 17:27:42,958 - INFO - Playing song: Chaar Botal Vodka Full Song Feat. Yo Yo Honey Singh, Sunny Leone | Ragini MMS 2
+2025-02-18 17:31:31,956 - INFO - ffmpeg process 14844 successfully terminated with return code of 0.
+2025-02-18 17:31:33,799 - INFO - Playing song: Naach Meri Rani: Guru Randhawa Feat. Nora Fatehi | Tanishk Bagchi | Nikhita Gandhi | Bhushan Kumar
+2025-02-18 17:32:20,440 - INFO - Song skipped.
+2025-02-18 17:32:20,451 - INFO - ffmpeg process 10048 has not terminated. Waiting to terminate...
+2025-02-18 17:32:20,486 - INFO - ffmpeg process 10048 should have terminated with a return code of 1.
+2025-02-18 17:32:23,263 - INFO - Playing song: Sau Tarah Ke Full Video Song | Dishoom | John Abraham | Varun Dhawan | Jacqueline Fernandez| Pritam
+2025-02-18 17:36:19,549 - INFO - ffmpeg process 1760 successfully terminated with return code of 0.
+2025-02-18 17:36:19,852 - INFO - Playback finished.
+2025-02-18 17:48:58,499 - INFO - Playing song: Bollywood x Hollywood LOFI Mashups | Non-Stop JukeBox | MSM
+2025-02-18 17:50:17,940 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-02-18 17:50:17,943 - WARNING - Bot disconnected from the voice channel, stopping playback.
+2025-02-18 17:50:17,943 - INFO - ffmpeg process 3856 has not terminated. Waiting to terminate...
+2025-02-18 17:50:17,955 - INFO - ffmpeg process 3856 should have terminated with a return code of 1.
+2025-02-19 16:48:50,888 - INFO - logging in using static token
+2025-02-19 16:48:53,290 - INFO - Shard ID None has connected to Gateway (Session ID: d2b26069139e7ed2a8b093f33c135a4f).
+2025-02-19 16:48:56,184 - INFO - Bot is online and ready to serve.
+2025-02-19 16:50:07,002 - INFO - Connecting to voice...
+2025-02-19 16:50:07,002 - INFO - Starting voice handshake... (connection attempt 1)
+2025-02-19 16:50:07,590 - INFO - Voice handshake complete. Endpoint found: india10024.discord.media
+2025-02-19 16:50:08,167 - INFO - Voice connection complete.
+2025-02-19 16:50:08,822 - INFO - Connected to voice channel: Chill.
+2025-02-19 16:50:24,551 - INFO - Playing song: Beedi (Video Song) | Omkara | Ajay Devgn, Saif Ali Khan & Bipasha Basu
+2025-02-19 16:50:51,720 - INFO - Volume set to 90%.
+2025-02-19 16:56:46,305 - INFO - ffmpeg process 10060 successfully terminated with return code of 0.
+2025-02-19 16:56:46,305 - INFO - Playback finished.
+2025-02-19 16:57:02,152 - INFO - Playing song: Dil Dhadakne Do Full Video Song | Zindagi Na Milegi Dobara | Hrithik Roshan, Farhan Akhtar
+2025-02-19 16:57:11,536 - INFO - Volume set to 30%.
+2025-02-19 16:57:20,362 - INFO - ffmpeg process 13716 has not terminated. Waiting to terminate...
+2025-02-19 16:57:20,370 - INFO - ffmpeg process 13716 should have terminated with a return code of 1.
+2025-02-19 16:57:20,832 - INFO - Auto play is disabled, not playing the next song.
+2025-02-19 16:57:20,927 - INFO - Playback stopped and queue cleared.
+2025-02-19 16:57:41,887 - INFO - Playing song: "Anarkali Disco Chali Full Song" | Housefull 2 | Malaika Arora Khan
+2025-02-19 17:02:25,540 - INFO - ffmpeg process 9156 successfully terminated with return code of 0.
+2025-02-19 17:02:25,540 - INFO - Playback finished.
+2025-02-19 17:03:54,303 - INFO - Playing song: Lyrical: Khwab Dekhe (Sexy Lady) - Race | Saif Ali Khan, Katrina Kaif |Monali Thakur, Neeraj| Pritam
+2025-02-19 17:08:29,905 - INFO - ffmpeg process 15640 successfully terminated with return code of 0.
+2025-02-19 17:08:31,503 - INFO - Playback finished.
+2025-02-19 17:11:14,917 - INFO - Playing song: "Aapka Kya Hoga Janabe Ali" (Dhanno) Housefull Full Song | Akshay Kumar | Mika Singh
+2025-02-19 17:16:15,103 - INFO - ffmpeg process 16164 successfully terminated with return code of 0.
+2025-02-19 17:16:16,639 - INFO - Playback finished.
+2025-02-19 17:16:33,786 - INFO - Repeat mode tuned : True
+2025-02-19 17:16:41,650 - INFO - Playing song: Beedi (Video Song) | Omkara | Ajay Devgn, Saif Ali Khan & Bipasha Basu
+2025-02-19 17:16:50,582 - INFO - Volume set to 90%.
+2025-02-19 17:23:03,651 - INFO - ffmpeg process 17736 successfully terminated with return code of 0.
+2025-02-19 17:23:09,064 - INFO - Playing song: Beedi (Video Song) | Omkara | Ajay Devgn, Saif Ali Khan & Bipasha Basu
+2025-02-19 17:24:25,073 - INFO - Song skipped.
+2025-02-19 17:24:25,092 - INFO - ffmpeg process 18512 has not terminated. Waiting to terminate...
+2025-02-19 17:24:25,125 - INFO - ffmpeg process 18512 should have terminated with a return code of 1.
+2025-02-19 17:24:29,226 - INFO - Playing song: Beedi (Video Song) | Omkara | Ajay Devgn, Saif Ali Khan & Bipasha Basu
+2025-02-19 17:24:41,731 - INFO - Playback paused.
+2025-02-19 17:25:01,906 - INFO - Repeat mode tuned : False
+2025-02-19 17:25:11,216 - INFO - ffmpeg process 8596 has not terminated. Waiting to terminate...
+2025-02-19 17:25:11,216 - INFO - Auto play is disabled, not playing the next song.
+2025-02-19 17:25:11,224 - INFO - ffmpeg process 8596 should have terminated with a return code of 1.
+2025-02-19 17:25:11,651 - INFO - Playback stopped and queue cleared.
+2025-02-19 17:25:20,295 - INFO - Playing song: Choot Vol. 1
+2025-02-19 17:27:27,786 - INFO - Added media to queue: AUR - TU HAI KAHAN - Raffey - Usama - Ahad (Official Music Video)
+2025-02-19 17:30:03,866 - INFO - ffmpeg process 9852 successfully terminated with return code of 0.
+2025-02-19 17:30:05,205 - INFO - Playing song: AUR - TU HAI KAHAN - Raffey - Usama - Ahad (Official Music Video)
+2025-02-19 17:32:32,796 - INFO - Added media to queue: 70s-80s-90s Old Is Gold Songs | O Mere Dil Ke Chain | Lag Ja Gale Se Phir | Tere Bina Zindagi Se
+2025-02-19 17:34:23,762 - INFO - Shard ID None has successfully RESUMED session d2b26069139e7ed2a8b093f33c135a4f.
+2025-02-19 17:34:27,738 - INFO - ffmpeg process 11544 successfully terminated with return code of 0.
+2025-02-19 17:34:30,809 - INFO - Playing song: 70s-80s-90s Old Is Gold Songs | O Mere Dil Ke Chain | Lag Ja Gale Se Phir | Tere Bina Zindagi Se
+2025-02-19 17:51:53,973 - ERROR - Disconnected from voice... Reconnecting in 0.59s.
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\voice_state.py", line 598, in _poll_voice_ws
+    await self.ws.poll_event()
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 1037, in poll_event
+    raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1006
+2025-02-19 17:51:54,727 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-02-19 17:51:54,729 - INFO - Connecting to voice...
+2025-02-19 17:51:54,731 - INFO - Starting voice handshake... (connection attempt 1)
+2025-02-19 17:51:55,846 - INFO - Shard ID None has successfully RESUMED session d2b26069139e7ed2a8b093f33c135a4f.
+2025-02-19 17:52:24,737 - WARNING - Could not connect to voice... Retrying...
+2025-02-19 17:54:51,168 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-02-26 14:32:02,062 - INFO - logging in using static token
+2025-02-26 14:32:06,744 - INFO - Shard ID None has connected to Gateway (Session ID: c4c7e0d8e22a3d234252cc436f6d48e4).
+2025-02-26 14:32:10,698 - INFO - Bot is online and ready to serve.
+2025-02-26 14:32:51,749 - INFO - Connecting to voice...
+2025-02-26 14:32:51,749 - INFO - Starting voice handshake... (connection attempt 1)
+2025-02-26 14:32:52,413 - INFO - Voice handshake complete. Endpoint found: india10006.discord.media
+2025-02-26 14:32:54,117 - INFO - Voice connection complete.
+2025-02-26 14:32:55,107 - INFO - Connected to voice channel: SQUAD 1.
+2025-02-26 14:33:18,335 - INFO - Playing song: PYTHON FUNK
+2025-02-26 14:33:29,787 - INFO - Volume set to 30%.
+2025-02-26 14:33:38,476 - INFO - Volume set to 10%.
+2025-02-26 14:33:57,975 - INFO - ffmpeg process 15144 has not terminated. Waiting to terminate...
+2025-02-26 14:33:57,979 - INFO - Auto play is disabled, not playing the next song.
+2025-02-26 14:33:58,001 - INFO - ffmpeg process 15144 should have terminated with a return code of 1.
+2025-02-26 14:33:58,695 - INFO - Playback stopped and queue cleared.
+2025-02-26 14:34:10,026 - INFO - The voice handshake is being terminated for Channel ID 1287496475986886676 (Guild ID 1232656750424100864)
+2025-02-28 16:53:53,410 - INFO - logging in using static token
+2025-02-28 16:53:55,977 - INFO - Shard ID None has connected to Gateway (Session ID: 9a7e5c7cd0937ba791a5d46727726b6a).
+2025-02-28 16:53:58,959 - INFO - Bot is online and ready to serve.
+2025-02-28 16:54:01,849 - INFO - Connecting to voice...
+2025-02-28 16:54:01,850 - INFO - Starting voice handshake... (connection attempt 1)
+2025-02-28 16:54:02,513 - INFO - Voice handshake complete. Endpoint found: india10035.discord.media
+2025-02-28 16:54:03,216 - INFO - Voice connection complete.
+2025-02-28 16:54:03,764 - INFO - Connected to voice channel: Chill.
+2025-02-28 16:54:18,691 - INFO - Playing song: Beedi (Video Song) | Omkara | Ajay Devgn, Saif Ali Khan & Bipasha Basu
+2025-02-28 16:56:24,446 - INFO - Added song to queue: O Womaniya Full Song Gangs Of Wasseypur | Gangs Of Wasseypur | Manoj Bajpai, Reema Sen
+2025-02-28 17:00:40,622 - INFO - ffmpeg process 13756 successfully terminated with return code of 0.
+2025-02-28 17:00:44,800 - INFO - Playing song: O Womaniya Full Song Gangs Of Wasseypur | Gangs Of Wasseypur | Manoj Bajpai, Reema Sen
+2025-02-28 17:03:46,709 - INFO - Added song to queue: Choot Vol. 1
+2025-02-28 17:04:36,568 - INFO - ffmpeg process 9864 successfully terminated with return code of 0.
+2025-02-28 17:04:38,670 - INFO - Playing song: Choot Vol. 1
+2025-02-28 17:05:42,905 - INFO - ffmpeg process 5496 has not terminated. Waiting to terminate...
+2025-02-28 17:05:42,916 - INFO - ffmpeg process 5496 should have terminated with a return code of 1.
+2025-02-28 17:05:43,155 - INFO - Auto play is disabled, not playing the next song.
+2025-02-28 17:05:44,461 - INFO - Playback stopped and queue cleared.
+2025-02-28 17:21:17,427 - INFO - Shard ID None has successfully RESUMED session 9a7e5c7cd0937ba791a5d46727726b6a.
+2025-02-28 17:46:13,803 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-03-04 15:13:02,158 - INFO - logging in using static token
+2025-03-04 15:13:04,309 - INFO - Shard ID None has connected to Gateway (Session ID: dda576ca489d8097ec38e1e9a59fe1a7).
+2025-03-04 15:13:07,176 - INFO - Bot is online and ready to serve.
+2025-03-04 15:13:28,498 - INFO - Connecting to voice...
+2025-03-04 15:13:28,500 - INFO - Starting voice handshake... (connection attempt 1)
+2025-03-04 15:13:29,085 - INFO - Voice handshake complete. Endpoint found: india10025.discord.media
+2025-03-04 15:13:29,707 - INFO - Voice connection complete.
+2025-03-04 15:13:30,957 - INFO - Connected to voice channel: Chill.
+2025-03-04 15:13:42,512 - INFO - Playing song: TERE MAST MAST DO NAIN
+2025-03-04 15:19:39,767 - INFO - ffmpeg process 18656 successfully terminated with return code of 0.
+2025-03-04 15:19:40,163 - INFO - Playback finished.
+2025-03-04 15:20:07,619 - INFO - Playing song: Rahat Fateh Ali Khan - Zaroori Tha
+2025-03-04 15:25:23,415 - INFO - ffmpeg process 15048 successfully terminated with return code of 0.
+2025-03-04 15:25:26,005 - INFO - Playback finished.
+2025-03-04 15:26:58,651 - INFO - Playing song: Maston Ka Jhund Lyric Video - Bhaag Milkha Bhaag|Farhan Akhtar|Divya Kumar|Prasoon Joshi
+2025-03-04 15:31:32,555 - INFO - ffmpeg process 4504 successfully terminated with return code of 0.
+2025-03-04 15:31:36,821 - INFO - Playback finished.
+2025-03-04 15:32:01,894 - INFO - Playing song: Agent Vinod Pyar Ki Pungi Full Video Song (HD) | Saif Ali Khan | Pritam
+2025-03-04 15:35:36,092 - INFO - ffmpeg process 15192 successfully terminated with return code of 0.
+2025-03-04 15:35:37,377 - INFO - Playback finished.
+2025-03-04 15:44:05,329 - INFO - Playing song: Wo Purane Din - Piyush Mishra (Official Audio)
+2025-03-04 15:45:24,393 - INFO - ffmpeg process 17136 has not terminated. Waiting to terminate...
+2025-03-04 15:45:24,412 - INFO - Auto play is disabled, not playing the next song.
+2025-03-04 15:45:24,431 - INFO - ffmpeg process 17136 should have terminated with a return code of 1.
+2025-03-04 15:45:25,080 - INFO - Playback stopped and queue cleared.
+2025-03-04 15:45:57,938 - INFO - Playing song: BROWN MUNDE - AP DHILLON | GURINDER GILL | SHINDA KAHLON (Official Music Video)
+2025-03-04 15:46:06,714 - INFO - Added song to queue: Dope Shope (Full Song ) | Yo Yo Honey Singh | Deep Money | | Latest Punjabi Song 2023
+2025-03-04 15:50:25,027 - INFO - ffmpeg process 19488 successfully terminated with return code of 0.
+2025-03-04 15:50:30,852 - INFO - Playing song: Dope Shope (Full Song ) | Yo Yo Honey Singh | Deep Money | | Latest Punjabi Song 2023
+2025-03-04 15:53:40,672 - INFO - ffmpeg process 14980 successfully terminated with return code of 0.
+2025-03-04 15:53:44,998 - INFO - Playback finished.
+2025-03-04 16:14:18,135 - INFO - Playback stopped and queue cleared.
+2025-03-04 16:14:18,141 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-03-04 16:14:19,128 - INFO - Bot disconnected from voice channel.
+2025-03-10 09:55:01,807 - INFO - logging in using static token
+2025-03-10 09:55:04,064 - INFO - Shard ID None has connected to Gateway (Session ID: 92b2fe3ae8ee52d50a21d33f8ab5e694).
+2025-03-10 09:55:06,784 - INFO - Bot is online and ready to serve.
+2025-03-10 09:55:28,358 - INFO - Connecting to voice...
+2025-03-10 09:55:28,359 - INFO - Starting voice handshake... (connection attempt 1)
+2025-03-10 09:55:28,934 - INFO - Voice handshake complete. Endpoint found: india10000.discord.media
+2025-03-10 09:55:29,549 - INFO - Voice connection complete.
+2025-03-10 09:55:30,286 - INFO - Connected to voice channel: SQUAD 1.
+2025-03-10 09:55:45,718 - INFO - Playing song: Beedi (Video Song) | Omkara | Ajay Devgn, Saif Ali Khan & Bipasha Basu
+2025-03-10 09:56:46,622 - INFO - Shard ID None has successfully RESUMED session 92b2fe3ae8ee52d50a21d33f8ab5e694.
+2025-03-10 09:58:00,136 - INFO - Shard ID None has successfully RESUMED session 92b2fe3ae8ee52d50a21d33f8ab5e694.
+2025-03-10 10:02:07,770 - INFO - ffmpeg process 7380 successfully terminated with return code of 0.
+2025-03-10 10:02:10,962 - INFO - Playback finished.
+2025-03-10 10:30:34,259 - INFO - Playing song: Rajasthani Song | \u0928\u093e\u0917\u093f\u0923 \u0927\u094b\u0930\u093e \u0930\u0940 | Prakash Gandhi,Neeta Nayak 2008 - PMC Rajasthani | Nagin Dhora Ri
+2025-03-10 10:31:03,148 - INFO - ffmpeg process 9428 has not terminated. Waiting to terminate...
+2025-03-10 10:31:03,154 - INFO - Auto play is disabled, not playing the next song.
+2025-03-10 10:31:03,160 - INFO - ffmpeg process 9428 should have terminated with a return code of 1.
+2025-03-10 10:31:04,310 - INFO - Playback stopped and queue cleared.
+2025-03-10 10:32:10,986 - INFO - Shard ID None has successfully RESUMED session 92b2fe3ae8ee52d50a21d33f8ab5e694.
+2025-03-10 11:09:18,436 - INFO - The voice handshake is being terminated for Channel ID 1287496475986886676 (Guild ID 1232656750424100864)
+2025-03-24 18:27:01,554 - INFO - logging in using static token
+2025-03-24 18:27:04,049 - INFO - Shard ID None has connected to Gateway (Session ID: 2cc70b9c7c3d94da7bcd4c10ccf60954).
+2025-03-24 18:27:06,865 - INFO - Bot is online and ready to serve.
+2025-03-24 18:27:25,749 - INFO - Connecting to voice...
+2025-03-24 18:27:25,750 - INFO - Starting voice handshake... (connection attempt 1)
+2025-03-24 18:27:26,336 - INFO - Voice handshake complete. Endpoint found: india10000.discord.media
+2025-03-24 18:27:26,948 - INFO - Voice connection complete.
+2025-03-24 18:27:27,731 - INFO - Connected to voice channel: SQUAD 1.
+2025-03-24 18:27:56,505 - INFO - Playing song: Beedi (Video Song) | Omkara | Ajay Devgn, Saif Ali Khan & Bipasha Basu
+2025-03-24 18:28:15,554 - INFO - Volume set to 80%.
+2025-03-24 18:32:35,239 - INFO - Added song to queue: Dope Shope (Full Song ) | Yo Yo Honey Singh | Deep Money | | Latest Punjabi Song 2023
+2025-03-24 18:34:18,290 - INFO - ffmpeg process 16684 successfully terminated with return code of 0.
+2025-03-24 18:34:24,835 - INFO - Playing song: Dope Shope (Full Song ) | Yo Yo Honey Singh | Deep Money | | Latest Punjabi Song 2023
+2025-03-24 18:37:33,760 - INFO - ffmpeg process 19696 successfully terminated with return code of 0.
+2025-03-24 18:37:38,035 - INFO - Playback finished.
+2025-03-25 17:42:56,327 - INFO - logging in using static token
+2025-03-25 17:43:01,652 - INFO - Shard ID None has connected to Gateway (Session ID: 516679ddf7e235ac0a796fe72e1df14b).
+2025-03-25 17:43:04,823 - INFO - Bot is online and ready to serve.
+2025-03-25 17:44:37,537 - INFO - Connecting to voice...
+2025-03-25 17:44:37,538 - INFO - Starting voice handshake... (connection attempt 1)
+2025-03-25 17:44:38,116 - INFO - Voice handshake complete. Endpoint found: india10024.discord.media
+2025-03-25 17:44:38,958 - INFO - Voice connection complete.
+2025-03-25 17:44:39,718 - INFO - Connected to voice channel: music-private.
+2025-03-25 17:45:01,386 - INFO - Added song to queue: Måneskin - Beggin' (Lyrics/Testo)
+2025-03-25 17:45:01,749 - INFO - Playing song: Adele - Skyfall (Official Lyric Video)
+2025-03-25 17:48:54,694 - INFO - Playback paused.
+2025-03-25 17:54:36,411 - INFO - Playback resumed.
+2025-03-25 17:55:31,783 - INFO - ffmpeg process 13092 successfully terminated with return code of 0.
+2025-03-25 17:55:32,736 - INFO - Playing song: Måneskin - Beggin' (Lyrics/Testo)
+2025-03-25 17:59:02,908 - INFO - ffmpeg process 3244 successfully terminated with return code of 0.
+2025-03-25 17:59:07,368 - INFO - Playback finished.
+2025-03-25 18:01:05,333 - INFO - Playing song: Dope Shope (Full Song ) | Yo Yo Honey Singh | Deep Money | | Latest Punjabi Song 2023
+2025-03-25 18:04:15,785 - INFO - ffmpeg process 19128 successfully terminated with return code of 0.
+2025-03-25 18:04:17,910 - INFO - Playback finished.
+2025-03-25 19:09:51,340 - INFO - The voice handshake is being terminated for Channel ID 1287757393270276239 (Guild ID 1232656750424100864)
+2025-04-08 18:54:57,755 - INFO - logging in using static token
+2025-04-08 18:59:11,755 - INFO - logging in using static token
+2025-04-08 18:59:13,759 - INFO - Shard ID None has connected to Gateway (Session ID: 2ce693eb46943ea8b775b1843a3ae739).
+2025-04-08 18:59:16,496 - INFO - Bot is online and ready to serve.
+2025-04-08 18:59:29,261 - INFO - Connecting to voice...
+2025-04-08 18:59:29,261 - INFO - Starting voice handshake... (connection attempt 1)
+2025-04-08 18:59:29,846 - INFO - Voice handshake complete. Endpoint found: india10032.discord.media
+2025-04-08 18:59:30,307 - INFO - Voice connection complete.
+2025-04-08 18:59:30,852 - INFO - Connected to voice channel: Chill.
+2025-04-08 18:59:43,231 - INFO - Playing song: Beedi (Video Song) | Omkara | Ajay Devgn, Saif Ali Khan & Bipasha Basu
+2025-04-08 19:02:22,742 - INFO - Volume set to 30%.
+2025-04-08 19:04:17,791 - INFO - Added song to queue: Agent Vinod Pyar Ki Pungi Full Video Song (HD) | Saif Ali Khan | Pritam
+2025-04-08 19:04:30,761 - INFO - Added song to queue: Full Video: Masakali | Delhi 6 | Abhishek Bachchan, Sonam Kapoor | A.R. Rahman |  Mohit Chauhan
+2025-04-08 19:06:05,253 - INFO - ffmpeg process 6860 successfully terminated with return code of 0.
+2025-04-08 19:06:06,287 - INFO - Playing song: Agent Vinod Pyar Ki Pungi Full Video Song (HD) | Saif Ali Khan | Pritam
+2025-04-08 19:08:28,322 - INFO - Added song to queue: Maston Ka Jhund Lyric Video - Bhaag Milkha Bhaag|Farhan Akhtar|Divya Kumar|Prasoon Joshi
+2025-04-08 19:09:40,369 - INFO - ffmpeg process 15128 successfully terminated with return code of 0.
+2025-04-08 19:09:41,991 - INFO - Playing song: Full Video: Masakali | Delhi 6 | Abhishek Bachchan, Sonam Kapoor | A.R. Rahman |  Mohit Chauhan
+2025-04-08 19:13:38,138 - INFO - ffmpeg process 11180 successfully terminated with return code of 0.
+2025-04-08 19:13:40,462 - INFO - Playing song: Maston Ka Jhund Lyric Video - Bhaag Milkha Bhaag|Farhan Akhtar|Divya Kumar|Prasoon Joshi
+2025-04-08 19:15:14,190 - INFO - Volume set to 20%.
+2025-04-08 19:18:14,437 - INFO - ffmpeg process 15288 successfully terminated with return code of 0.
+2025-04-08 19:18:16,994 - INFO - Playback finished.
+2025-04-08 19:30:16,021 - INFO - Bot is the only member in the voice channel. Disconnecting the bot.
+2025-04-08 19:30:17,525 - INFO - Playback stopped and queue cleared.
+2025-04-08 19:30:17,526 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-04-08 19:30:18,514 - INFO - Bot disconnected from voice channel.
+2025-04-10 18:54:57,982 - INFO - logging in using static token
+2025-04-10 18:55:00,613 - INFO - Shard ID None has connected to Gateway (Session ID: d8741a2b601f76ebf539167bae5aeede).
+2025-04-10 18:55:03,434 - INFO - Bot is online and ready to serve.
+2025-04-10 18:55:42,356 - INFO - Connecting to voice...
+2025-04-10 18:55:42,357 - INFO - Starting voice handshake... (connection attempt 1)
+2025-04-10 18:55:42,953 - INFO - Voice handshake complete. Endpoint found: india10024.discord.media
+2025-04-10 18:55:43,531 - INFO - Voice connection complete.
+2025-04-10 18:55:45,671 - INFO - Connected to voice channel: Chill.
+2025-04-10 18:56:10,512 - INFO - Playing song: AC/DC - Thunderstruck (Official Video)
+2025-04-10 19:01:02,916 - INFO - ffmpeg process 420 successfully terminated with return code of 0.
+2025-04-10 19:01:03,867 - INFO - Playback finished.
+2025-04-10 19:01:58,310 - INFO - Playing song: Manasha (Over Slowed)
+2025-04-10 19:04:13,188 - INFO - ffmpeg process 12464 successfully terminated with return code of 0.
+2025-04-10 19:04:14,242 - INFO - Playback finished.
+2025-04-10 19:05:25,450 - INFO - Playing song: Bhai Bhai (Bhala Mori Rama) Song with Lyrics | Goliyon Ki Rasleela Ramleela #FolkSong
+2025-04-10 19:06:41,809 - INFO - ffmpeg process 11628 successfully terminated with return code of 0.
+2025-04-10 19:06:42,179 - INFO - Playback finished.
+2025-04-10 19:08:21,931 - INFO - Playing song: Beedi (Video Song) | Omkara | Ajay Devgn, Saif Ali Khan & Bipasha Basu
+2025-04-10 19:09:20,371 - INFO - Added song to queue: A Man Without Love LYRICS Video Engelbert Humperdinck 1968 \U0001f319 Moon Knight Episode 1
+2025-04-10 19:09:29,138 - INFO - Playback paused.
+2025-04-10 19:10:24,413 - INFO - Playback resumed.
+2025-04-10 19:15:38,922 - INFO - ffmpeg process 20676 successfully terminated with return code of 0.
+2025-04-10 19:15:41,375 - INFO - Playing song: A Man Without Love LYRICS Video Engelbert Humperdinck 1968 \U0001f319 Moon Knight Episode 1
+2025-04-10 19:17:13,678 - INFO - Added song to queue: Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video)
+2025-04-10 19:18:58,229 - INFO - ffmpeg process 14492 successfully terminated with return code of 0.
+2025-04-10 19:18:59,021 - INFO - Playing song: Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video)
+2025-04-10 19:19:02,177 - INFO - Shard ID None has successfully RESUMED session d8741a2b601f76ebf539167bae5aeede.
+2025-04-10 19:23:10,612 - INFO - ffmpeg process 17564 successfully terminated with return code of 0.
+2025-04-10 19:23:12,296 - INFO - Playback finished.
+2025-04-10 19:27:44,921 - INFO - Shard ID None has successfully RESUMED session d8741a2b601f76ebf539167bae5aeede.
+2025-04-10 19:53:16,657 - INFO - Playing song: Queen - We Will Rock You (Official Video)
+2025-04-10 19:55:20,177 - INFO - Added song to queue: øneheart x reidenshi - snowfall (1 hour loop)
+2025-04-10 19:55:30,290 - INFO - ffmpeg process 13204 successfully terminated with return code of 0.
+2025-04-10 19:55:31,718 - INFO - Playing song: øneheart x reidenshi - snowfall (1 hour loop)
+2025-04-10 19:57:41,407 - INFO - Added song to queue: Blade Runner - Love Theme - Vangelis
+2025-04-10 19:59:13,235 - INFO - Song skipped.
+2025-04-10 19:59:13,250 - INFO - ffmpeg process 21364 has not terminated. Waiting to terminate...
+2025-04-10 19:59:13,282 - INFO - ffmpeg process 21364 should have terminated with a return code of 1.
+2025-04-10 19:59:17,045 - INFO - Playing song: Blade Runner - Love Theme - Vangelis
+2025-04-10 20:01:13,046 - INFO - Added song to queue: Adele - Skyfall (Official Lyric Video)
+2025-04-10 20:01:13,129 - ERROR - Error during skip command: [WinError 64] The specified network name is no longer available
+2025-04-10 20:01:21,466 - INFO - Song skipped.
+2025-04-10 20:01:21,474 - INFO - ffmpeg process 4572 has not terminated. Waiting to terminate...
+2025-04-10 20:01:21,504 - INFO - ffmpeg process 4572 should have terminated with a return code of 1.
+2025-04-10 20:01:22,490 - INFO - Playing song: Adele - Skyfall (Official Lyric Video)
+2025-04-10 20:03:49,897 - INFO - Volume set to 30%.
+2025-04-10 20:06:11,136 - INFO - ffmpeg process 8948 successfully terminated with return code of 0.
+2025-04-10 20:06:12,385 - INFO - Playback finished.
+2025-04-10 20:29:59,968 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-04-11 17:57:55,806 - INFO - logging in using static token
+2025-04-11 17:57:57,998 - INFO - Shard ID None has connected to Gateway (Session ID: 216c74c1d7c0928e47ffeb153524e983).
+2025-04-11 17:58:00,830 - INFO - Bot is online and ready to serve.
+2025-04-11 17:58:11,660 - INFO - Connecting to voice...
+2025-04-11 17:58:11,662 - INFO - Starting voice handshake... (connection attempt 1)
+2025-04-11 17:58:12,236 - INFO - Voice handshake complete. Endpoint found: india10020.discord.media
+2025-04-11 17:58:12,721 - INFO - Voice connection complete.
+2025-04-11 17:58:13,301 - INFO - Connected to voice channel: Chill.
+2025-04-11 17:58:29,162 - INFO - Playing song: Beedi (Video Song) | Omkara | Ajay Devgn, Saif Ali Khan & Bipasha Basu
+2025-04-11 17:59:51,675 - INFO - Playback paused.
+2025-04-11 18:05:00,826 - WARNING - Can't keep up, shard ID None websocket is 10.7s behind.
+2025-04-11 18:05:01,414 - WARNING - Can't keep up, shard ID None websocket is 11.3s behind.
+2025-04-11 18:05:30,784 - ERROR - Disconnected from voice... Reconnecting in 0.96s.
+Traceback (most recent call last):
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client_ws.py", line 334, in receive
+    msg = await self._reader.read()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp\\_websocket\\reader_c.py", line 112, in read
+  File "aiohttp\\_websocket\\reader_c.py", line 109, in aiohttp._websocket.reader_c.WebSocketDataQueue.read
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\voice_state.py", line 598, in _poll_voice_ws
+    await self.ws.poll_event()
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 1029, in poll_event
+    msg = await asyncio.wait_for(self.ws.receive(), timeout=30.0)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+2025-04-11 18:05:32,051 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-04-11 18:05:32,053 - INFO - Connecting to voice...
+2025-04-11 18:05:32,054 - INFO - Starting voice handshake... (connection attempt 1)
+2025-04-11 18:06:02,078 - WARNING - Could not connect to voice... Retrying...
+2025-04-11 18:06:12,796 - ERROR - Attempting a reconnect in 0.97s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-04-11 18:06:19,149 - INFO - Shard ID None has successfully RESUMED session 216c74c1d7c0928e47ffeb153524e983.
+2025-04-11 18:07:47,216 - ERROR - Attempting a reconnect in 3.50s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-04-11 18:07:51,966 - ERROR - Attempting a reconnect in 7.33s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-04-11 18:07:59,510 - ERROR - Attempting a reconnect in 2.96s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-04-11 18:08:02,840 - ERROR - Attempting a reconnect in 5.87s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-c.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-04-11 18:08:12,425 - INFO - Shard ID None has successfully RESUMED session 216c74c1d7c0928e47ffeb153524e983.
+2025-04-11 18:08:36,536 - INFO - Playback resumed.
+2025-04-11 18:09:05,763 - INFO - ffmpeg process 5104 has not terminated. Waiting to terminate...
+2025-04-11 18:09:05,777 - INFO - ffmpeg process 5104 should have terminated with a return code of 1.
+2025-04-11 18:09:09,475 - WARNING - Bot disconnected from the voice channel, stopping playback.
+2025-04-11 18:09:09,477 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-04-11 18:09:12,881 - INFO - logging in using static token
+2025-04-11 18:09:15,745 - INFO - Shard ID None has connected to Gateway (Session ID: 46a39902fcc2baa4b41ba546a17765e0).
+2025-04-11 18:09:18,589 - INFO - Bot is online and ready to serve.
+2025-04-11 18:10:49,614 - INFO - Connecting to voice...
+2025-04-11 18:10:49,614 - INFO - Starting voice handshake... (connection attempt 1)
+2025-04-11 18:10:55,001 - ERROR - Attempting a reconnect in 1.98s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2025-04-11 18:10:57,912 - INFO - Shard ID None has successfully RESUMED session 46a39902fcc2baa4b41ba546a17765e0.
+2025-04-11 18:11:19,627 - INFO - Timed out connecting to voice
+2025-04-11 18:11:19,627 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-04-11 18:11:19,628 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-04-11 18:11:49,353 - INFO - Connecting to voice...
+2025-04-11 18:11:49,354 - INFO - Starting voice handshake... (connection attempt 1)
+2025-04-11 18:14:42,916 - INFO - logging in using static token
+2025-04-11 18:18:35,675 - INFO - logging in using static token
+2025-04-11 18:18:37,707 - INFO - Shard ID None has connected to Gateway (Session ID: 8b8ef9a0c33cdb0a2d3669034c48763f).
+2025-04-11 18:18:40,418 - INFO - Bot is online and ready to serve.
+2025-04-11 18:21:25,990 - INFO - Connecting to voice...
+2025-04-11 18:21:25,991 - INFO - Starting voice handshake... (connection attempt 1)
+2025-04-11 18:21:26,601 - INFO - Voice handshake complete. Endpoint found: india10020.discord.media
+2025-04-11 18:21:27,052 - INFO - Voice connection complete.
+2025-04-11 18:21:27,808 - INFO - Connected to voice channel: Chill.
+2025-04-11 18:21:36,904 - INFO - Playing song: Beedi (Video Song) | Omkara | Ajay Devgn, Saif Ali Khan & Bipasha Basu
+2025-04-11 18:27:58,861 - INFO - ffmpeg process 8500 successfully terminated with return code of 0.
+2025-04-11 18:27:58,862 - INFO - Playback finished.
+2025-04-11 18:38:08,153 - INFO - Playing song: Lynyrd Skynyrd - Free Bird (Official Audio)
+2025-04-11 18:38:28,720 - INFO - Added song to queue: Eminem - Rap God (Explicit)
+2025-04-11 18:39:00,496 - INFO - Added song to queue: DMX - X Gon' Give It To Ya
+2025-04-11 18:39:30,941 - INFO - Added song to queue: Eminem - Without Me (Official Music Video)
+2025-04-11 18:39:47,570 - INFO - Playback paused.
+2025-04-11 18:39:51,166 - INFO - Added song to queue: Eminem - Mockingbird [Official Music Video]
+2025-04-11 18:40:01,539 - INFO - Playback resumed.
+2025-04-11 18:47:31,761 - INFO - ffmpeg process 7120 successfully terminated with return code of 0.
+2025-04-11 18:47:43,253 - INFO - Playing song: Eminem - Rap God (Explicit)
+2025-04-11 18:47:44,124 - WARNING - Can't keep up, shard ID None websocket is 13.9s behind.
+2025-04-11 18:47:44,124 - WARNING - Can't keep up, shard ID None websocket is 13.9s behind.
+2025-04-11 18:49:30,245 - ERROR - Disconnected from voice... Reconnecting in 0.83s.
+Traceback (most recent call last):
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client_ws.py", line 334, in receive
+    msg = await self._reader.read()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp\\_websocket\\reader_c.py", line 112, in read
+  File "aiohttp\\_websocket\\reader_c.py", line 109, in aiohttp._websocket.reader_c.WebSocketDataQueue.read
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\voice_state.py", line 598, in _poll_voice_ws
+    await self.ws.poll_event()
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 1029, in poll_event
+    msg = await asyncio.wait_for(self.ws.receive(), timeout=30.0)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+2025-04-11 18:49:31,114 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-04-11 18:49:31,115 - INFO - Connecting to voice...
+2025-04-11 18:49:31,116 - INFO - Starting voice handshake... (connection attempt 1)
+2025-04-11 18:49:34,183 - INFO - Voice handshake complete. Endpoint found: india10020.discord.media
+2025-04-11 18:49:34,764 - INFO - Voice connection complete.
+2025-04-11 18:49:35,288 - INFO - Song skipped.
+2025-04-11 18:49:58,797 - ERROR - Disconnected from voice... Reconnecting in 3.26s.
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\voice_state.py", line 598, in _poll_voice_ws
+    await self.ws.poll_event()
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 1037, in poll_event
+    raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1006
+2025-04-11 18:50:02,078 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-04-11 18:50:02,078 - INFO - Connecting to voice...
+2025-04-11 18:50:02,080 - INFO - Starting voice handshake... (connection attempt 1)
+2025-04-11 18:50:04,964 - INFO - Voice handshake complete. Endpoint found: india10020.discord.media
+2025-04-11 18:50:09,984 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-04-16 16:22:00,854 - INFO - logging in using static token
+2025-04-16 16:22:03,204 - INFO - Shard ID None has connected to Gateway (Session ID: ae2c39dfa13c5454bef2c64439a7944d).
+2025-04-16 16:22:05,929 - INFO - Bot is online and ready to serve.
+2025-04-16 16:25:24,314 - INFO - Connecting to voice...
+2025-04-16 16:25:24,314 - INFO - Starting voice handshake... (connection attempt 1)
+2025-04-16 16:25:25,045 - INFO - Voice handshake complete. Endpoint found: india10013.discord.media
+2025-04-16 16:25:26,180 - INFO - Voice connection complete.
+2025-04-16 16:25:27,795 - INFO - Connected to voice channel: SQUAD 1.
+2025-04-16 16:25:50,920 - INFO - Playing song: Dj Kantik - Teriyaki Boyz - Tokyo Drift & Sean Paul - Temperature (Remix)
+2025-04-16 16:29:40,371 - INFO - ffmpeg process 4336 successfully terminated with return code of 0.
+2025-04-16 16:29:41,121 - INFO - Playback finished.
+2025-04-16 16:34:09,568 - INFO - Playing song: CHOOT VOL. 1 - Yo Yo Honey Singh Ft. Badshah (Official Music Video)
+2025-04-16 16:35:04,519 - INFO - ffmpeg process 17532 has not terminated. Waiting to terminate...
+2025-04-16 16:35:04,531 - INFO - ffmpeg process 17532 should have terminated with a return code of 1.
+2025-04-16 16:35:04,563 - INFO - Auto play is disabled, not playing the next song.
+2025-04-16 16:35:06,628 - INFO - Playback stopped and queue cleared.
+2025-04-16 16:35:16,531 - INFO - Playing song: \U0001f480Beat Trava Pulmao\U0001f480 (Slowed + Reverb)
+2025-04-16 16:35:44,382 - INFO - The voice handshake is being terminated for Channel ID 1287496475986886676 (Guild ID 1232656750424100864)
+2025-04-16 16:35:44,401 - INFO - ffmpeg process 15092 has not terminated. Waiting to terminate...
+2025-04-16 16:35:44,415 - INFO - ffmpeg process 15092 should have terminated with a return code of 1.
+2025-04-16 16:35:44,480 - WARNING - Bot disconnected from the voice channel, stopping playback.
+2025-05-11 16:53:17,635 - INFO - logging in using static token
+2025-05-11 16:53:20,254 - INFO - Shard ID None has connected to Gateway (Session ID: 90d2fabbb0048d9f33149896db56aebe).
+2025-05-11 16:53:23,298 - INFO - Bot is online and ready to serve.
+2025-05-11 16:53:43,134 - INFO - Connecting to voice...
+2025-05-11 16:53:43,134 - INFO - Starting voice handshake... (connection attempt 1)
+2025-05-11 16:53:43,715 - INFO - Voice handshake complete. Endpoint found: india10006.discord.media
+2025-05-11 16:53:44,318 - INFO - Voice connection complete.
+2025-05-11 16:53:45,152 - INFO - Connected to voice channel: SQUAD 2.
+2025-05-11 16:53:56,943 - INFO - Playing song: Beedi (Video Song) | Omkara | Ajay Devgn, Saif Ali Khan & Bipasha Basu
+2025-05-11 17:00:18,975 - INFO - ffmpeg process 1720 successfully terminated with return code of 0.
+2025-05-11 17:00:19,795 - INFO - Playback finished.
+2025-05-11 17:21:18,159 - INFO - Playing song: Tokyo Drift - Teriyaki Boyz [ MUSIC VIDEO ] HD
+2025-05-11 17:21:35,932 - INFO - Volume set to 20%.
+2025-05-11 17:21:44,500 - INFO - Volume set to 5%.
+2025-05-11 17:25:34,708 - INFO - ffmpeg process 3936 successfully terminated with return code of 0.
+2025-05-11 17:25:38,069 - INFO - Playback finished.
+2025-05-11 17:51:15,735 - INFO - Playing song: Adele - Skyfall (Official Lyric Video)
+2025-05-11 17:56:04,597 - INFO - ffmpeg process 17028 successfully terminated with return code of 0.
+2025-05-11 17:56:06,939 - INFO - Playback finished.
+2025-05-11 19:35:47,523 - INFO - Bot is the only member in the voice channel. Disconnecting the bot.
+2025-05-11 19:35:49,183 - INFO - Playback stopped and queue cleared.
+2025-05-11 19:35:49,186 - INFO - The voice handshake is being terminated for Channel ID 1298502772089425971 (Guild ID 1232656750424100864)
+2025-05-11 19:35:50,225 - INFO - Bot disconnected from voice channel.
+2025-05-11 19:59:25,360 - WARNING - Shard ID None has stopped responding to the gateway. Closing and restarting.
+2025-05-11 19:59:26,351 - INFO - Shard ID None session has been invalidated.
+2025-05-11 19:59:33,407 - INFO - Shard ID None has connected to Gateway (Session ID: a3a7984b490c9e11b0ce4f4fde16ace1).
+2025-05-11 19:59:38,193 - INFO - Bot is online and ready to serve.
+2025-05-12 11:08:25,211 - INFO - logging in using static token
+2025-05-12 11:08:27,844 - INFO - Shard ID None has connected to Gateway (Session ID: c4e1d15e2f0a5007a79cc3c25cd01ccd).
+2025-05-12 11:08:30,463 - INFO - Bot is online and ready to serve.
+2025-05-12 11:09:54,948 - INFO - Connecting to voice...
+2025-05-12 11:09:54,949 - INFO - Starting voice handshake... (connection attempt 1)
+2025-05-12 11:09:55,555 - INFO - Voice handshake complete. Endpoint found: india10024.discord.media
+2025-05-12 11:09:56,350 - INFO - Voice connection complete.
+2025-05-12 11:09:57,478 - INFO - Connected to voice channel: Chill.
+2025-05-12 11:10:10,197 - INFO - Playing song: Ricky Montgomery - Line Without a Hook (Lyrics)
+2025-05-12 11:10:19,769 - INFO - Volume set to 40%.
+2025-05-12 11:12:22,884 - INFO - Playback paused.
+2025-05-12 11:45:26,930 - INFO - Added song to queue: Bruno Mars - Talking To The Moon (Lyrics)
+2025-05-12 11:48:25,782 - INFO - Song skipped.
+2025-05-12 11:48:25,784 - INFO - ffmpeg process 13896 has not terminated. Waiting to terminate...
+2025-05-12 11:48:25,796 - INFO - ffmpeg process 13896 should have terminated with a return code of 1.
+2025-05-12 11:48:26,366 - INFO - Playing song: Bruno Mars - Talking To The Moon (Lyrics)
+2025-05-12 11:49:55,512 - INFO - Playback paused.
+2025-05-12 12:06:11,827 - INFO - Added song to queue: Adele - Skyfall (Official Lyric Video)
+2025-05-12 12:06:12,539 - INFO - Playback resumed.
+2025-05-12 12:08:17,576 - INFO - ffmpeg process 20720 successfully terminated with return code of 0.
+2025-05-12 12:08:23,367 - INFO - Playing song: Adele - Skyfall (Official Lyric Video)
+2025-05-12 12:12:20,324 - INFO - Volume set to 5%.
+2025-05-12 12:13:11,783 - INFO - ffmpeg process 10648 successfully terminated with return code of 0.
+2025-05-12 12:13:12,934 - INFO - Playback finished.
+2025-05-12 13:22:27,116 - ERROR - Disconnected from voice... Reconnecting in 1.87s.
+Traceback (most recent call last):
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client_ws.py", line 334, in receive
+    msg = await self._reader.read()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "aiohttp\\_websocket\\reader_c.py", line 112, in read
+  File "aiohttp\\_websocket\\reader_c.py", line 109, in aiohttp._websocket.reader_c.WebSocketDataQueue.read
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\voice_state.py", line 598, in _poll_voice_ws
+    await self.ws.poll_event()
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 1029, in poll_event
+    msg = await asyncio.wait_for(self.ws.receive(), timeout=30.0)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+2025-05-12 13:22:27,742 - ERROR - Attempting a reconnect in 1.46s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-d.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-05-12 13:22:29,188 - WARNING - Shard ID None has stopped responding to the gateway. Closing and restarting.
+2025-05-12 13:22:29,536 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-05-12 13:22:29,561 - INFO - Connecting to voice...
+2025-05-12 13:22:29,706 - INFO - Starting voice handshake... (connection attempt 1)
+2025-05-12 13:22:30,115 - ERROR - Attempting a reconnect in 1.64s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-d.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-05-12 13:22:31,779 - ERROR - Attempting a reconnect in 4.50s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-d.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-05-12 13:22:36,305 - ERROR - Attempting a reconnect in 9.66s
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\resolver.py", line 36, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 964, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\client.py", line 664, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 374, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\http.py", line 550, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-d.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-05-12 13:22:48,224 - INFO - Shard ID None session has been invalidated.
+2025-05-12 13:22:54,628 - INFO - Shard ID None has connected to Gateway (Session ID: fec65e3a41b6f594bfe2195b3f139e88).
+2025-05-12 13:22:57,701 - INFO - Bot is online and ready to serve.
+2025-05-18 18:08:35,347 - INFO - logging in using static token
+2025-05-18 18:08:37,718 - INFO - Shard ID None has connected to Gateway (Session ID: 2568e86a74831389291a3ad20ab0c93d).
+2025-05-18 18:08:40,609 - INFO - Bot is online and ready to serve.
+2025-05-18 18:09:23,973 - INFO - Connecting to voice...
+2025-05-18 18:09:23,974 - INFO - Starting voice handshake... (connection attempt 1)
+2025-05-18 18:09:24,548 - INFO - Voice handshake complete. Endpoint found: india10036.discord.media
+2025-05-18 18:09:25,098 - INFO - Voice connection complete.
+2025-05-18 18:09:25,949 - INFO - Connected to voice channel: Chill.
+2025-05-18 18:09:39,878 - INFO - Playing song: Thuk Laga Ke | \u0925\u0942\u0915 \u0932\u0917\u093e \u0915\u0947 | Song | party Song
+2025-05-18 18:09:51,243 - INFO - Volume set to 40%.
+2025-05-18 18:12:02,097 - INFO - ffmpeg process 16408 successfully terminated with return code of 0.
+2025-05-18 18:12:03,538 - INFO - Playback finished.
+2025-05-18 18:14:26,723 - INFO - Playing song: Seedhe Maut | DL91 FM | Full Mixtape (Visualiser)
+2025-05-18 18:15:33,009 - INFO - Disconnected from voice by force... potentially reconnecting.
+2025-05-18 18:15:33,034 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-05-18 18:15:33,039 - INFO - Reconnect was unsuccessful, disconnecting from voice normally...
+2025-05-18 18:15:33,045 - INFO - ffmpeg process 2352 has not terminated. Waiting to terminate...
+2025-05-18 18:15:33,068 - INFO - ffmpeg process 2352 should have terminated with a return code of 1.
+2025-05-18 18:15:46,641 - WARNING - Bot disconnected from the voice channel, stopping playback.
+2025-05-18 18:16:52,161 - INFO - Connecting to voice...
+2025-05-18 18:16:52,162 - INFO - Starting voice handshake... (connection attempt 1)
+2025-05-18 18:16:53,463 - INFO - Voice handshake complete. Endpoint found: india10036.discord.media
+2025-05-18 18:16:54,099 - INFO - Voice connection complete.
+2025-05-18 18:16:54,997 - INFO - Connected to voice channel: Chill.
+2025-05-18 18:17:00,536 - INFO - Disconnected from voice by force... potentially reconnecting.
+2025-05-18 18:17:00,548 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-05-18 18:17:00,551 - INFO - Reconnect was unsuccessful, disconnecting from voice normally...
+2025-05-18 18:17:10,930 - ERROR - Error in play command: 'NoneType' object has no attribute 'is_playing'
+2025-05-18 18:17:11,949 - ERROR - Error in play command: 'NoneType' object has no attribute 'is_playing'
+2025-05-24 14:53:23,515 - INFO - logging in using static token
+2025-05-24 14:53:25,732 - INFO - Shard ID None has connected to Gateway (Session ID: 5be703eadec2a231a16e5e463ed23a9e).
+2025-05-24 14:53:28,621 - INFO - Bot is online and ready to serve.
+2025-05-24 14:53:38,953 - INFO - Connecting to voice...
+2025-05-24 14:53:38,953 - INFO - Starting voice handshake... (connection attempt 1)
+2025-05-24 14:53:39,572 - INFO - Voice handshake complete. Endpoint found: india10015.discord.media
+2025-05-24 14:53:40,014 - ERROR - Error connecting to voice... disconnecting
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\voice_state.py", line 384, in _wrap_connect
+    await self._connect(*args)
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\voice_state.py", line 429, in _connect
+    await asyncio.wait_for(
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\voice_state.py", line 413, in _inner_connect
+    await self._handshake_websocket()
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\voice_state.py", line 583, in _handshake_websocket
+    await self.ws.poll_event()
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 1031, in poll_event
+    await self.received_message(utils._from_json(msg.data))
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 937, in received_message
+    await self.initial_connection(data)
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 967, in initial_connection
+    mode = modes[0]
+           ~~~~~^^^
+IndexError: list index out of range
+2025-05-24 14:53:40,107 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-05-24 14:53:40,736 - ERROR - Error while connecting to voice channel: list index out of range
+2025-05-24 14:55:31,138 - INFO - logging in using static token
+2025-05-24 14:55:33,617 - INFO - Shard ID None has connected to Gateway (Session ID: bd347cf2cee799106bc367472669e191).
+2025-05-24 14:55:36,256 - INFO - Bot is online and ready to serve.
+2025-05-24 14:55:53,361 - INFO - Connecting to voice...
+2025-05-24 14:55:53,362 - INFO - Starting voice handshake... (connection attempt 1)
+2025-05-24 14:55:53,959 - INFO - Voice handshake complete. Endpoint found: india10015.discord.media
+2025-05-24 14:55:54,380 - ERROR - Error connecting to voice... disconnecting
+Traceback (most recent call last):
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\voice_state.py", line 384, in _wrap_connect
+    await self._connect(*args)
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\voice_state.py", line 429, in _connect
+    await asyncio.wait_for(
+  File "C:\Users\Darsh\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\voice_state.py", line 413, in _inner_connect
+    await self._handshake_websocket()
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\voice_state.py", line 583, in _handshake_websocket
+    await self.ws.poll_event()
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 1031, in poll_event
+    await self.received_message(utils._from_json(msg.data))
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 937, in received_message
+    await self.initial_connection(data)
+  File "E:\__PROJECTS__\__PERSONAL__\__BOTS__\__DISCORD__\Spoty\.venv\Lib\site-packages\discord\gateway.py", line 967, in initial_connection
+    mode = modes[0]
+           ~~~~~^^^
+IndexError: list index out of range
+2025-05-24 14:55:54,393 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-05-24 14:55:55,221 - ERROR - Error while connecting to voice channel: list index out of range
+2025-05-24 15:03:35,834 - INFO - logging in using static token
+2025-05-24 15:03:38,194 - INFO - Shard ID None has connected to Gateway (Session ID: 8c885743ae5745efd5523b11a1aaec8d).
+2025-05-24 15:03:41,270 - INFO - Bot is online and ready to serve.
+2025-05-24 15:03:54,723 - INFO - Connecting to voice...
+2025-05-24 15:03:54,724 - INFO - Starting voice handshake... (connection attempt 1)
+2025-05-24 15:03:55,296 - INFO - Voice handshake complete. Endpoint found: india10015.discord.media
+2025-05-24 15:03:55,797 - INFO - Voice connection complete.
+2025-05-24 15:03:56,484 - INFO - Connected to voice channel: Chill.
+2025-05-24 15:04:19,636 - INFO - Playing song: Beedi (Video Song) | Omkara | Ajay Devgn, Saif Ali Khan & Bipasha Basu
+2025-05-24 15:05:56,415 - INFO - Added song to queue: Beedi (Video Song) | Omkara | Ajay Devgn, Saif Ali Khan & Bipasha Basu
+2025-05-24 15:06:55,972 - INFO - Added song to queue: Gio Pika - \u0411\u0443\u0439\u043d\u043e \u0433\u043e\u043b\u043e\u0432\u0430 (lyrics)
+2025-05-24 15:07:37,451 - INFO - Volume set to 30%.
+2025-05-24 15:07:49,356 - INFO - Volume set to 20%.
+2025-05-24 15:10:41,406 - INFO - ffmpeg process 21016 successfully terminated with return code of 0.
+2025-05-24 15:10:42,793 - INFO - Playing song: Beedi (Video Song) | Omkara | Ajay Devgn, Saif Ali Khan & Bipasha Basu
+2025-05-24 15:10:51,262 - INFO - Song skipped.
+2025-05-24 15:10:51,271 - INFO - ffmpeg process 20460 has not terminated. Waiting to terminate...
+2025-05-24 15:10:51,290 - INFO - ffmpeg process 20460 should have terminated with a return code of 1.
+2025-05-24 15:10:52,389 - INFO - Playing song: Gio Pika - \u0411\u0443\u0439\u043d\u043e \u0433\u043e\u043b\u043e\u0432\u0430 (lyrics)
+2025-05-24 15:13:00,189 - INFO - ffmpeg process 16484 successfully terminated with return code of 0.
+2025-05-24 15:13:02,501 - INFO - Playback finished.
+2025-05-24 15:15:14,835 - INFO - Playing song: CHOOT VOL. 1 - Yo Yo Honey Singh Ft. Badshah (Official Music Video)
+2025-05-24 15:19:31,731 - ERROR - Invalid Volume Level
+2025-05-24 15:19:37,938 - INFO - Volume set to 10%.
+2025-05-24 15:20:07,629 - INFO - ffmpeg process 21132 successfully terminated with return code of 0.
+2025-05-24 15:20:08,186 - INFO - Playback finished.
+2025-05-24 15:20:54,619 - INFO - Playing song: Zor Ka Jhatka Full HD Song Action Replayy
+2025-05-24 15:24:14,933 - INFO - ffmpeg process 23708 successfully terminated with return code of 0.
+2025-05-24 15:24:15,896 - INFO - Playback finished.
+2025-05-24 15:31:10,228 - INFO - Playback stopped and queue cleared.
+2025-05-24 15:31:10,228 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-05-24 15:31:11,223 - INFO - Bot disconnected from voice channel.
+2025-06-10 17:36:45,445 - INFO - logging in using static token
+2025-06-10 17:36:48,851 - INFO - Shard ID None has connected to Gateway (Session ID: cd1b5032fd8b953986899f6d2b4fc204).
+2025-06-10 17:36:51,537 - INFO - Bot is online and ready to serve.
+2025-06-10 17:37:08,385 - INFO - Connecting to voice...
+2025-06-10 17:37:08,386 - INFO - Starting voice handshake... (connection attempt 1)
+2025-06-10 17:37:08,977 - INFO - Voice handshake complete. Endpoint found: india10025.discord.media
+2025-06-10 17:37:09,553 - INFO - Voice connection complete.
+2025-06-10 17:37:10,538 - INFO - Connected to voice channel: SQUAD 1.
+2025-06-10 17:37:29,939 - INFO - Playing song: Emosanal Attyachar Lyrical Video | Dev D | Abhay Deol, Kalki Koechlin | Amit Trivedi
+2025-06-10 17:37:41,790 - INFO - Volume set to 30%.
+2025-06-10 17:37:46,703 - INFO - Volume set to 20%.
+2025-06-10 17:38:00,774 - INFO - Volume set to 10%.
+2025-06-10 17:41:47,049 - INFO - ffmpeg process 18244 successfully terminated with return code of 0.
+2025-06-10 17:41:48,304 - INFO - Playback finished.
+2025-06-10 17:43:15,966 - INFO - Playing song: Full Video: Mauja Hi Mauja | Jab We Met | Shahid kapoor, Kareena Kapoor | Mika Singh |  Pritam
+2025-06-10 17:43:25,386 - INFO - Added song to queue: Full Video: Masakali | Delhi 6 | Abhishek Bachchan, Sonam Kapoor | A.R. Rahman |  Mohit Chauhan
+2025-06-10 17:43:51,006 - INFO - Added song to queue: Blue Eyes Full Video Song Yo Yo Honey Singh | Blockbuster Song Of 2013
+2025-06-10 17:43:57,276 - INFO - Added song to queue: Agent Vinod Pyar Ki Pungi Full Video Song (HD) | Saif Ali Khan | Pritam
+2025-06-10 17:45:20,656 - INFO - Song skipped.
+2025-06-10 17:45:20,673 - INFO - ffmpeg process 16084 has not terminated. Waiting to terminate...
+2025-06-10 17:45:20,715 - INFO - ffmpeg process 16084 should have terminated with a return code of 1.
+2025-06-10 17:45:25,052 - INFO - Playing song: Full Video: Masakali | Delhi 6 | Abhishek Bachchan, Sonam Kapoor | A.R. Rahman |  Mohit Chauhan
+2025-06-10 17:47:41,472 - INFO - Song skipped.
+2025-06-10 17:47:41,492 - INFO - ffmpeg process 14536 has not terminated. Waiting to terminate...
+2025-06-10 17:47:41,525 - INFO - ffmpeg process 14536 should have terminated with a return code of 1.
+2025-06-10 17:47:44,165 - INFO - Playing song: Blue Eyes Full Video Song Yo Yo Honey Singh | Blockbuster Song Of 2013
+2025-06-10 17:48:09,587 - INFO - Added song to queue: Bhaag D.K. Bose, Aandhi Aayi | Ram Sampath | Imran Khan,Vir Das,Kunal Roy Kapur | Delhi Belly
+2025-06-10 17:48:18,099 - INFO - Added song to queue: CHOOT VOL. 1 - Yo Yo Honey Singh Ft. Badshah (Official Music Video)
+2025-06-10 17:48:26,231 - INFO - Playback paused.
+2025-06-10 17:49:03,555 - INFO - Playback resumed.
+2025-06-10 17:52:23,331 - INFO - ffmpeg process 7880 successfully terminated with return code of 0.
+2025-06-10 17:52:26,581 - INFO - Playing song: Agent Vinod Pyar Ki Pungi Full Video Song (HD) | Saif Ali Khan | Pritam
+2025-06-10 17:56:00,445 - INFO - ffmpeg process 20804 successfully terminated with return code of 0.
+2025-06-10 17:56:03,760 - INFO - Playing song: Bhaag D.K. Bose, Aandhi Aayi | Ram Sampath | Imran Khan,Vir Das,Kunal Roy Kapur | Delhi Belly
+2025-06-10 17:59:47,896 - INFO - Added song to queue: Arjun Kanungo ft. Badshah | Baaki Baatein Peene Baad (Lyrical Video) | Nikke Nikke Shots |Party Song
+2025-06-10 18:00:04,164 - INFO - ffmpeg process 15656 successfully terminated with return code of 0.
+2025-06-10 18:00:05,190 - INFO - Playing song: CHOOT VOL. 1 - Yo Yo Honey Singh Ft. Badshah (Official Music Video)
+2025-06-10 18:04:29,931 - INFO - Added song to queue: Ud-daa Punjab - Full Video | Udta Punjab | Vishal Dadlani & Amit Trivedi | Shahid Kapoor
+2025-06-10 18:04:57,722 - INFO - ffmpeg process 14392 successfully terminated with return code of 0.
+2025-06-10 18:05:01,235 - INFO - Playing song: Arjun Kanungo ft. Badshah | Baaki Baatein Peene Baad (Lyrical Video) | Nikke Nikke Shots |Party Song
+2025-06-10 18:08:41,366 - INFO - ffmpeg process 21620 successfully terminated with return code of 0.
+2025-06-10 18:08:46,642 - INFO - Playing song: Ud-daa Punjab - Full Video | Udta Punjab | Vishal Dadlani & Amit Trivedi | Shahid Kapoor
+2025-06-10 18:09:50,278 - INFO - Added song to queue: DMX - X Gon' Give It To Ya
+2025-06-10 18:10:05,515 - INFO - Added song to queue: Padmaavat: Khalibali - Ranveer Singh | Deepika Padukone | Shahid Kapoor | Shivam Pathak
+2025-06-10 18:12:47,377 - INFO - ffmpeg process 22052 successfully terminated with return code of 0.
+2025-06-10 18:12:48,808 - INFO - Playing song: DMX - X Gon' Give It To Ya
+2025-06-10 18:13:19,052 - INFO - Added song to queue: Eminem - Without Me (Official Music Video)
+2025-06-10 18:13:27,320 - INFO - Added song to queue: Daddy Yankee - Gasolina (Video Oficial)
+2025-06-10 18:16:26,717 - INFO - ffmpeg process 22908 successfully terminated with return code of 0.
+2025-06-10 18:16:30,596 - INFO - Playing song: Padmaavat: Khalibali - Ranveer Singh | Deepika Padukone | Shahid Kapoor | Shivam Pathak
+2025-06-10 18:19:00,826 - INFO - ffmpeg process 20248 has not terminated. Waiting to terminate...
+2025-06-10 18:19:00,875 - INFO - Auto play is disabled, not playing the next song.
+2025-06-10 18:19:00,873 - INFO - ffmpeg process 20248 should have terminated with a return code of 1.
+2025-06-10 18:19:02,739 - INFO - Playback stopped and queue cleared.
+2025-06-10 18:19:02,739 - INFO - The voice handshake is being terminated for Channel ID 1287496475986886676 (Guild ID 1232656750424100864)
+2025-06-10 18:19:08,519 - INFO - Bot disconnected from voice channel.
+2025-06-17 15:59:22,542 - INFO - logging in using static token
+2025-06-17 15:59:28,240 - INFO - Shard ID None has connected to Gateway (Session ID: b9c6918f6eb277cd0a8a8798be8145f3).
+2025-06-17 15:59:31,433 - INFO - Bot is online and ready to serve.
+2025-06-17 16:00:16,591 - INFO - Connecting to voice...
+2025-06-17 16:00:16,592 - INFO - Starting voice handshake... (connection attempt 1)
+2025-06-17 16:00:17,347 - INFO - Voice handshake complete. Endpoint found: india10044.discord.media
+2025-06-17 16:00:18,878 - INFO - Voice connection complete.
+2025-06-17 16:00:19,864 - INFO - Connected to voice channel: Chill.
+2025-06-17 16:01:10,875 - INFO - Playing song: CHOOT VOL. 1 - Yo Yo Honey Singh Ft. Badshah (Official Music Video)
+2025-06-17 16:01:27,051 - INFO - Added song to queue: Kajra Re | Full Song | Bunty Aur Babli | Aishwarya, Abhishek, Amitabh Bachchan | Shankar-Ehsaan-Loy
+2025-06-17 16:01:27,786 - INFO - Volume set to 30%.
+2025-06-17 16:02:08,252 - INFO - Added song to queue: Sau Tarah Ke Full Video Song | Dishoom | John Abraham | Varun Dhawan | Jacqueline Fernandez| Pritam
+2025-06-17 16:02:31,558 - INFO - Added song to queue: LEVELS - Official Video | Sidhu Moose Wala ft Sunny Malton | The Kidd
+2025-06-17 16:02:47,565 - INFO - Added song to queue: Sidhu Moose Wala's Emotional Journey: Dollar | Dakuaan Da Munda | Official Video | #sidhumoosewala
+2025-06-17 16:05:53,450 - INFO - ffmpeg process 11464 successfully terminated with return code of 0.
+2025-06-17 16:05:58,409 - INFO - Playing song: Kajra Re | Full Song | Bunty Aur Babli | Aishwarya, Abhishek, Amitabh Bachchan | Shankar-Ehsaan-Loy

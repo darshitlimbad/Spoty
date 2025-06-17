@@ -18,7 +18,7 @@ def print_license():
 
     Contact
         For further information or support, please reach out at:
-        - Email: darshitlimbad+git@gmail.com
+        - Email: darshitlimbad555+git@gmail.com
         - LinkedIn: https://www.linkedin.com/in/darshit-limbad/
     """
     print(license_text)
