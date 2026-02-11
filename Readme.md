@@ -87,6 +87,6 @@ To contribute or customize the bot, follow these steps:
 ## `Contact`
 
 For further information or support, please reach out at:
-- **Email:** darshitlimbad+git@gmail.com
+- **Email:** darshitlimbad555@gmail.com
 - **LinkedIn:**
 https://www.linkedin.com/in/darshit-limbad/

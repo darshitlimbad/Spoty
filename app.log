@@ -2138,3 +2138,15 @@ IndexError: list index out of range
 2025-06-17 16:02:47,565 - INFO - Added song to queue: Sidhu Moose Wala's Emotional Journey: Dollar | Dakuaan Da Munda | Official Video | #sidhumoosewala
 2025-06-17 16:05:53,450 - INFO - ffmpeg process 11464 successfully terminated with return code of 0.
 2025-06-17 16:05:58,409 - INFO - Playing song: Kajra Re | Full Song | Bunty Aur Babli | Aishwarya, Abhishek, Amitabh Bachchan | Shankar-Ehsaan-Loy
+2025-06-17 16:13:51,246 - INFO - ffmpeg process 18272 successfully terminated with return code of 0.
+2025-06-17 16:13:55,026 - INFO - Playing song: Sau Tarah Ke Full Video Song | Dishoom | John Abraham | Varun Dhawan | Jacqueline Fernandez| Pritam
+2025-06-17 16:17:31,616 - INFO - Volume set to 10%.
+2025-06-17 16:17:39,670 - INFO - Volume set to 2%.
+2025-06-17 16:17:51,020 - INFO - ffmpeg process 8276 successfully terminated with return code of 0.
+2025-06-17 16:17:55,794 - INFO - Playing song: LEVELS - Official Video | Sidhu Moose Wala ft Sunny Malton | The Kidd
+2025-06-17 16:21:46,424 - INFO - ffmpeg process 8048 successfully terminated with return code of 0.
+2025-06-17 16:21:51,255 - INFO - Playing song: Sidhu Moose Wala's Emotional Journey: Dollar | Dakuaan Da Munda | Official Video | #sidhumoosewala
+2025-06-17 16:23:52,874 - INFO - The voice handshake is being terminated for Channel ID 1259841726076420167 (Guild ID 1232656750424100864)
+2025-06-17 16:23:52,887 - INFO - ffmpeg process 20076 has not terminated. Waiting to terminate...
+2025-06-17 16:23:52,893 - WARNING - Bot disconnected from the voice channel, stopping playback.
+2025-06-17 16:23:52,899 - INFO - ffmpeg process 20076 should have terminated with a return code of 1.
